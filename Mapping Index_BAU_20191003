@@ -1,0 +1,218 @@
+/* 1 */
+[
+    {
+        "v" : 2,
+        "key" : {
+            "_id" : 1
+        },
+        "name" : "_id_",
+        "ns" : "SCBDMT_BAU.Mapping"
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "updt_dt" : -1
+        },
+        "name" : "updt_dt_-1",
+        "ns" : "SCBDMT_BAU.Mapping",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "dataprocessingrulename" : 1
+        },
+        "name" : "dataprocessingrulename_1",
+        "ns" : "SCBDMT_BAU.Mapping",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "sources.sourcelogicalapplayername" : 1
+        },
+        "name" : "sourcelogicalapplayername_1",
+        "ns" : "SCBDMT_BAU.Mapping",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "targetlogicalapplayername" : 1
+        },
+        "name" : "targetlogicalapplayername_1",
+        "ns" : "SCBDMT_BAU.Mapping",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "sources.sourcesystemname" : 1
+        },
+        "name" : "sourcesystemname_1",
+        "ns" : "SCBDMT_BAU.Mapping",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "targetsystemname" : 1
+        },
+        "name" : "targetsystemname_1",
+        "ns" : "SCBDMT_BAU.Mapping",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "sources.sourcecountryname" : 1
+        },
+        "name" : "sourcecountryname_1",
+        "ns" : "SCBDMT_BAU.Mapping",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "targetcountryname" : 1
+        },
+        "name" : "targetcountryname_1",
+        "ns" : "SCBDMT_BAU.Mapping",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "sources.sourceobjectphysicalname" : 1
+        },
+        "name" : "sourceobjectphysicalname_1",
+        "ns" : "SCBDMT_BAU.Mapping",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "targetobjectphysicalname" : 1
+        },
+        "name" : "targetobjectphysicalname_1",
+        "ns" : "SCBDMT_BAU.Mapping",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "sources.sourceattrphysicalname" : 1
+        },
+        "name" : "sourceattrphysicalname_1",
+        "ns" : "SCBDMT_BAU.Mapping",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "targetattrphysicalname" : 1
+        },
+        "name" : "targetattrphysicalname_1",
+        "ns" : "SCBDMT_BAU.Mapping",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "specialrule" : 1
+        },
+        "name" : "specialrule_1",
+        "ns" : "SCBDMT_BAU.Mapping",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "mapversion" : 1
+        },
+        "name" : "mapversion_1",
+        "ns" : "SCBDMT_BAU.Mapping",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "mapchangeversioncode" : 1
+        },
+        "name" : "mapchangeversioncode_1",
+        "ns" : "SCBDMT_BAU.Mapping",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "standarizedmapnote" : 1
+        },
+        "name" : "standarizedmapnote_1",
+        "ns" : "SCBDMT_BAU.Mapping",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "compoundmapgrp" : 1
+        },
+        "name" : "compoundmapgrp_1",
+        "ns" : "SCBDMT_BAU.Mapping",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "countryspecificmapindicator" : 1
+        },
+        "name" : "countryspecificmapindicator_1",
+        "ns" : "SCBDMT_BAU.Mapping",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "isbmapind" : 1
+        },
+        "name" : "isbmapind_1",
+        "ns" : "SCBDMT_BAU.Mapping",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "isbkeyind" : 1
+        },
+        "name" : "isbkeyind_1",
+        "ns" : "SCBDMT_BAU.Mapping",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "updt_by" : 1
+        },
+        "name" : "updt_by_1",
+        "ns" : "SCBDMT_BAU.Mapping",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "sources.sourcedbname" : 1
+        },
+        "name" : "sourcedbname_1",
+        "ns" : "SCBDMT_BAU.Mapping",
+        "background" : true
+    },
+    {
+        "v" : 2,
+        "key" : {
+            "targetdbname" : 1
+        },
+        "name" : "targetdbname_1",
+        "ns" : "SCBDMT_BAU.Mapping",
+        "background" : true
+    }
+]
