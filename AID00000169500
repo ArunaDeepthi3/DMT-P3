@@ -1,0 +1,197 @@
+/* 1 */
+{
+    "_id" : "imc23_Q560Z9rSm7ZJ9600-CLqQwvF5p",
+    "sessionid" : "6OiV57HCSjsuRm4_znZS-4P50GI4X5Zq",
+    "userid" : "5ae1357328e343589c61b5b6",
+    "loginid" : "1550514",
+    "userfullname" : "Maity, Subhendu",
+    "ip" : "10.65.123.221:63772",
+    "roleid" : "admin",
+    "role" : "Admin",
+    "action" : "APPROVE",
+    "reference" : [ 
+        {
+            "Remark" : "Approved",
+            "ObjStrVerId" : "",
+            "DataTypeRange" : "",
+            "IsMaskingRequired" : "false",
+            "IsSecondaryIndex" : "false",
+            "SensitivityName" : "",
+            "PhysicalName" : "PRTY_LAST_UPDT_DT",
+            "RecordTypeCode" : "",
+            "DoubleByteCharIndicator" : "true",
+            "DataTypeId" : "DATA_TYPE0002",
+            "FieldStartPos" : "",
+            "IsForeignKey" : "false",
+            "IsPrimaryIndex" : "false",
+            "CheckedBy" : "1550514",
+            "LogicalName" : "Party Last Update date",
+            "Alias" : "",
+            "DataType" : "DATE",
+            "SensitivityCode" : "",
+            "RemarkHistory" : [],
+            "Version" : "",
+            "Status" : 10.0,
+            "Checker" : "",
+            "UPDT_BY" : "1550514",
+            "SensitivityId" : "",
+            "DataClassificationIndicator" : "",
+            "ModeUpdate" : "",
+            "ObjStrVerName" : "",
+            "SampleData" : "",
+            "IsMandatory" : "false",
+            "PersonalInformation" : "true",
+            "FieldSequence" : "",
+            "IsPrimaryKey" : "false",
+            "IsUniqueAccrossCountry" : "true",
+            "RecordType" : "",
+            "RecordTypeId" : "",
+            "DataTypeCode" : "DATE",
+            "FieldEndPos" : "",
+            "IsBusinessKey" : "false",
+            "GDSTerm" : "",
+            "GDSDesc" : "",
+            "ObjStrVerValue" : "",
+            "UPDT_DT" : "2019-07-10T02:25:40.805969347Z",
+            "RemarkMaker" : "New Attributes",
+            "PendingStatus" : "create",
+            "Id" : "AID00000169500",
+            "LogicUsedInSrc" : "",
+            "IsActive" : true
+        }
+    ],
+    "referencechanges" : {
+        "AID00000169500" : {
+            "referenceid" : "AID00000169500",
+            "referencename" : "ObjectStructure",
+            "fieldchange" : {
+                "CheckedBy" : {
+                    "field" : "CheckedBy",
+                    "oldvalue" : "",
+                    "newvalue" : "1550514"
+                },
+                "Remark" : {
+                    "field" : "Remark",
+                    "oldvalue" : "",
+                    "newvalue" : "Approved"
+                },
+                "Status" : {
+                    "field" : "Status",
+                    "oldvalue" : 0,
+                    "newvalue" : 10
+                },
+                "UPDT_DT" : {
+                    "field" : "UPDT_DT",
+                    "oldvalue" : ISODate("2019-07-10T02:25:13.944Z"),
+                    "newvalue" : ISODate("2019-07-10T02:25:40.805Z")
+                }
+            }
+        }
+    },
+    "requestaddr" : "/objectstructure/approve",
+    "requestcontroller" : "objectstructure",
+    "time" : ISODate("2019-07-10T02:25:40.806Z"),
+    "loadingtimes" : "",
+    "logintime" : ISODate("2019-07-10T02:18:27.102Z"),
+    "description" : "SUCCESS"
+}
+
+/* 2 */
+{
+    "_id" : "FSw9dsZrmkDEKAgL79at0xpAj8i5d5hb",
+    "sessionid" : "6OiV57HCSjsuRm4_znZS-4P50GI4X5Zq",
+    "userid" : "5ae1357328e343589c61b5b6",
+    "loginid" : "1550514",
+    "userfullname" : "Maity, Subhendu",
+    "ip" : "10.65.123.221:63772",
+    "roleid" : "admin",
+    "role" : "Admin",
+    "action" : "APPROVE",
+    "reference" : [ 
+        {
+            "RecordTypeId" : "",
+            "IsForeignKey" : "false",
+            "UPDT_BY" : "1550514",
+            "PersonalInformation" : "true",
+            "Id" : "AID00000169500",
+            "RecordTypeCode" : "",
+            "FieldSequence" : "",
+            "SampleData" : "",
+            "RemarkHistory" : [ 
+                {
+                    "User" : "1550514",
+                    "Date" : "2019-07-10T10:25:52.237+08:00",
+                    "Message" : "",
+                    "Type" : "Maker"
+                }
+            ],
+            "Version" : "",
+            "Status" : 10.0,
+            "SensitivityId" : "",
+            "DataType" : "DATE",
+            "DataTypeCode" : "DATE",
+            "ModeUpdate" : "",
+            "ObjStrVerId" : "OBJ_STR_VER0003",
+            "IsActive" : true,
+            "CheckedBy" : "1550514",
+            "Remark" : "Approved",
+            "IsPrimaryIndex" : "false",
+            "PhysicalName" : "PRTY_LAST_UPDT_DT",
+            "Alias" : "",
+            "GDSTerm" : "",
+            "RecordType" : "",
+            "IsPrimaryKey" : "false",
+            "IsMandatory" : "false",
+            "IsBusinessKey" : "false",
+            "IsSecondaryIndex" : "false",
+            "UPDT_DT" : "2019-07-10T02:25:59.825168479Z",
+            "RemarkMaker" : "New Attributes",
+            "ObjStrVerValue" : "HD~DF_CORE~Tier 2~50",
+            "DataTypeId" : "DATA_TYPE0002",
+            "DataTypeRange" : "",
+            "FieldStartPos" : "",
+            "FieldEndPos" : "",
+            "DoubleByteCharIndicator" : "true",
+            "Checker" : "",
+            "PendingStatus" : "update",
+            "SensitivityCode" : "",
+            "DataClassificationIndicator" : "",
+            "LogicalName" : "Party Last Update date",
+            "ObjStrVerName" : "HD~DF_CORE~Tier 2~50",
+            "SensitivityName" : "",
+            "GDSDesc" : "",
+            "LogicUsedInSrc" : "",
+            "IsMaskingRequired" : "false",
+            "IsUniqueAccrossCountry" : "true"
+        }
+    ],
+    "referencechanges" : {
+        "AID00000169500" : {
+            "referenceid" : "AID00000169500",
+            "referencename" : "ObjectStructure",
+            "fieldchange" : {
+                "CheckedBy" : {
+                    "field" : "CheckedBy",
+                    "oldvalue" : "",
+                    "newvalue" : "1550514"
+                },
+                "Status" : {
+                    "field" : "Status",
+                    "oldvalue" : 0,
+                    "newvalue" : 10
+                },
+                "UPDT_DT" : {
+                    "field" : "UPDT_DT",
+                    "oldvalue" : ISODate("2019-07-10T02:25:52.235Z"),
+                    "newvalue" : ISODate("2019-07-10T02:25:59.825Z")
+                }
+            }
+        }
+    },
+    "requestaddr" : "/objectstructure/approve",
+    "requestcontroller" : "objectstructure",
+    "time" : ISODate("2019-07-10T02:25:59.828Z"),
+    "loadingtimes" : "",
+    "logintime" : ISODate("2019-07-10T02:18:27.102Z"),
+    "description" : "SUCCESS"
+}
