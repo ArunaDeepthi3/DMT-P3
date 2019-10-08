@@ -1,3 +1,111 @@
+
+Update 2:
+/* 1 */
+{
+    "_id" : {
+        "_id" : "OID00000003822",
+        "structurephysicalname" : "MODI_DATE"
+    },
+    "uniqueAttrIds" : [ 
+        "AID00000169874", 
+        "AID00000149888"
+    ],
+    "count" : 2.0
+}
+
+/* 2 */
+{
+    "_id" : {
+        "_id" : "OID00000000300",
+        "structurephysicalname" : "CR_CUST_LE_ID"
+    },
+    "uniqueAttrIds" : [ 
+        "AID00000147474", 
+        "AID00000014956"
+    ],
+    "count" : 2.0
+}
+
+/* 3 */
+{
+    "_id" : {
+        "_id" : "OID00000000300",
+        "structurephysicalname" : "CNTRY_BOOKING_LOCATION"
+    },
+    "uniqueAttrIds" : [ 
+        "AID00000147448", 
+        "AID00000014958"
+    ],
+    "count" : 2.0
+}
+
+/* 4 */
+{
+    "_id" : {
+        "_id" : "OID00000000106",
+        "structurephysicalname" : "PRTY_LAST_UPDT_DT"
+    },
+    "uniqueAttrIds" : [ 
+        "AID00000169821", 
+        "AID00000169500"
+    ],
+    "count" : 2.0
+}
+
+/* 5 */
+{
+    "_id" : {
+        "_id" : "OID00000000300",
+        "structurephysicalname" : "CR_CUST_SEGMENT"
+    },
+    "uniqueAttrIds" : [ 
+        "AID00000147483", 
+        "AID00000014985"
+    ],
+    "count" : 2.0
+}
+
+/* 6 */
+{
+    "_id" : {
+        "_id" : "OID00000000300",
+        "structurephysicalname" : "CR_CUST_ID"
+    },
+    "uniqueAttrIds" : [ 
+        "AID00000147469", 
+        "AID00000014959"
+    ],
+    "count" : 2.0
+}
+
+/* 7 */
+{
+    "_id" : {
+        "_id" : "OID00000000474",
+        "structurephysicalname" : "TAXNOMCURRCODE"
+    },
+    "uniqueAttrIds" : [ 
+        "AID00000154655", 
+        "AID00000021311"
+    ],
+    "count" : 2.0
+}
+
+/* 8 */
+{
+    "_id" : {
+        "_id" : "OID00000000300",
+        "structurephysicalname" : "CR_CUST_CMP_ID"
+    },
+    "uniqueAttrIds" : [ 
+        "AID00000147450", 
+        "AID00000014957"
+    ],
+    "count" : 2.0
+}
+__________________________________________________________________________________
+Update:1
+
 /* 1 */
 {
     "_id" : {
