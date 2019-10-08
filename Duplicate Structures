@@ -1,4 +1,174 @@
+Update 3:
 
+/* 1 */
+{
+    "_id" : {
+        "_id" : "OID00000000106",
+        "structurephysicalname" : "PRTY_LAST_UPDT_DT"
+    },
+    "structures" : [ 
+        {
+            "id" : "AID00000169500",
+            "physicalname" : "PRTY_LAST_UPDT_DT"
+        }, 
+        {
+            "id" : "AID00000169821",
+            "physicalname" : "PRTY_LAST_UPDT_DT"
+        }
+    ],
+    "object_id" : "OID00000000106",
+    "object_physicalname" : "PRTY",
+    "count" : 2.0
+}
+
+/* 2 */
+{
+    "_id" : {
+        "_id" : "OID00000000300",
+        "structurephysicalname" : "CNTRY_BOOKING_LOCATION"
+    },
+    "structures" : [ 
+        {
+            "id" : "AID00000014958",
+            "physicalname" : "CNTRY_BOOKING_LOCATION"
+        }, 
+        {
+            "id" : "AID00000147448",
+            "physicalname" : "CNTRY_BOOKING_LOCATION"
+        }
+    ],
+    "object_id" : "OID00000000300",
+    "object_physicalname" : "CMT_ALL_CR_CUST_TXN",
+    "count" : 2.0
+}
+
+/* 3 */
+{
+    "_id" : {
+        "_id" : "OID00000000300",
+        "structurephysicalname" : "CR_CUST_CMP_ID"
+    },
+    "structures" : [ 
+        {
+            "id" : "AID00000014957",
+            "physicalname" : "CR_CUST_CMP_ID"
+        }, 
+        {
+            "id" : "AID00000147450",
+            "physicalname" : "CR_CUST_CMP_ID"
+        }
+    ],
+    "object_id" : "OID00000000300",
+    "object_physicalname" : "CMT_ALL_CR_CUST_TXN",
+    "count" : 2.0
+}
+
+/* 4 */
+{
+    "_id" : {
+        "_id" : "OID00000000300",
+        "structurephysicalname" : "CR_CUST_ID"
+    },
+    "structures" : [ 
+        {
+            "id" : "AID00000014959",
+            "physicalname" : "CR_CUST_ID"
+        }, 
+        {
+            "id" : "AID00000147469",
+            "physicalname" : "CR_CUST_ID"
+        }
+    ],
+    "object_id" : "OID00000000300",
+    "object_physicalname" : "CMT_ALL_CR_CUST_TXN",
+    "count" : 2.0
+}
+
+/* 5 */
+{
+    "_id" : {
+        "_id" : "OID00000000300",
+        "structurephysicalname" : "CR_CUST_LE_ID"
+    },
+    "structures" : [ 
+        {
+            "id" : "AID00000014956",
+            "physicalname" : "CR_CUST_LE_ID"
+        }, 
+        {
+            "id" : "AID00000147474",
+            "physicalname" : "CR_CUST_LE_ID"
+        }
+    ],
+    "object_id" : "OID00000000300",
+    "object_physicalname" : "CMT_ALL_CR_CUST_TXN",
+    "count" : 2.0
+}
+
+/* 6 */
+{
+    "_id" : {
+        "_id" : "OID00000000300",
+        "structurephysicalname" : "CR_CUST_SEGMENT"
+    },
+    "structures" : [ 
+        {
+            "id" : "AID00000014985",
+            "physicalname" : "CR_CUST_SEGMENT"
+        }, 
+        {
+            "id" : "AID00000147483",
+            "physicalname" : "CR_CUST_SEGMENT"
+        }
+    ],
+    "object_id" : "OID00000000300",
+    "object_physicalname" : "CMT_ALL_CR_CUST_TXN",
+    "count" : 2.0
+}
+
+/* 7 */
+{
+    "_id" : {
+        "_id" : "OID00000000474",
+        "structurephysicalname" : "TAXNOMCURRCODE"
+    },
+    "structures" : [ 
+        {
+            "id" : "AID00000021311",
+            "physicalname" : "TAXNOMCURRCODE"
+        }, 
+        {
+            "id" : "AID00000154655",
+            "physicalname" : "TAXNOMCURRCODE"
+        }
+    ],
+    "object_id" : "OID00000000474",
+    "object_physicalname" : "EBBS_AE_ACCOUNT",
+    "count" : 2.0
+}
+
+/* 8 */
+{
+    "_id" : {
+        "_id" : "OID00000003822",
+        "structurephysicalname" : "MODI_DATE"
+    },
+    "structures" : [ 
+        {
+            "id" : "AID00000149888",
+            "physicalname" : "MODI_DATE"
+        }, 
+        {
+            "id" : "AID00000169874",
+            "physicalname" : "modi_date"
+        }
+    ],
+    "object_id" : "OID00000003822",
+    "object_physicalname" : "gps_all_tl_bank",
+    "count" : 2.0
+}
+
+_________________________________________________________________________
 Update 2:
 /* 1 */
 {
