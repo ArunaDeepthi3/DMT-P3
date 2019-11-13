@@ -1,0 +1,105 @@
+nohup:
+
+ Function   :  eaciit/datacatalogue/webapp/services.(*Base).GetExportData
+ File Name  :  edmp.sql
+ Query Name :  edmp-dd-technical
+--------------------------------------------------------------
+SELECT *
+                FROM (
+                SELECT DISTINCT
+COUNTRY AS COUNTRY,
+BUSINESS_SEGMENT AS BUSINESS_SEGMENT,
+EDM_SOURCE_SYSTEM_NAME AS EDM_SOURCE_SYSTEM_NAME,
+CLUSTER_NAME AS CLUSTER_NAME,
+TIER AS TIER,
+ITAM AS ITAM,
+DATABASE_NAME AS DATABASE_NAME,
+TABLE_NAME AS TABLE_NAME,
+COLUMN_NAME AS COLUMN_NAME,
+DATA_TYPE AS DATA_TYPE,
+DATA_LENGTH AS COLUMN_LENGTH,
+NULLABLE AS NULLABLE,
+PRIMARY_KEY AS PRIMARY_KEY,
+CERTIFIED AS CERTIFIED,
+DATA_XRAY AS DATA_XRAY,
+PII AS PII,
+DATA_LINEAGE AS DATA_LINEAGE,
+CDE AS CDE
+FROM
+TBL_EDMP
+        )
+WHERE
+( ( upper(NVL(EDM_SOURCE_SYSTEM_NAME, ' ')) = upper('DOTOPAL') ) )
+queryTime: 40.775074213
+fetched results: 366201
+--------------------------------------------------------------
+SELECT *
+                FROM (
+                SELECT DISTINCT
+COUNTRY AS COUNTRY,
+BUSINESS_SEGMENT AS BUSINESS_SEGMENT,
+EDM_SOURCE_SYSTEM_NAME AS EDM_SOURCE_SYSTEM_NAME,
+CLUSTER_NAME AS CLUSTER_NAME,
+TIER AS TIER,
+ITAM AS ITAM,
+DATABASE_NAME AS DATABASE_NAME,
+TABLE_NAME AS TABLE_NAME,
+COLUMN_NAME AS COLUMN_NAME,
+DATA_TYPE AS DATA_TYPE,
+DATA_LENGTH AS COLUMN_LENGTH,
+NULLABLE AS NULLABLE,
+PRIMARY_KEY AS PRIMARY_KEY,
+CERTIFIED AS CERTIFIED,
+DATA_XRAY AS DATA_XRAY,
+PII AS PII,
+DATA_LINEAGE AS DATA_LINEAGE,
+CDE AS CDE
+FROM
+TBL_EDMP
+        )
+WHERE
+( ( upper(NVL(EDM_SOURCE_SYSTEM_NAME, ' ')) = upper('DOTOPAL') ) )
+queryTime: 41.930220625
+fetched results: 366201
+--------------------------------------------------------------
+
+
+
+
+Network Request Payload:
+
+Filename: "edmp.sql", Queryname: "edmp-dd-technical", System: "",…}
+Filename: "edmp.sql"
+Filters: {filterTypes: {EDM_SOURCE_SYSTEM_NAME: "eq"}, EDM_SOURCE_SYSTEM_NAME: ["DOTOPAL"]}
+EDM_SOURCE_SYSTEM_NAME: ["DOTOPAL"]
+0: "DOTOPAL"
+filterTypes: {EDM_SOURCE_SYSTEM_NAME: "eq"}
+EDM_SOURCE_SYSTEM_NAME: "eq"
+Headers: [{align: "left", display: true, filterable: false, exportable: false, displayCount: false,…},…]
+0: {align: "left", display: true, filterable: false, exportable: false, displayCount: false,…}
+1: {align: "left", display: true, exportable: true, displayCount: false, sortable: true, filterable: true,…}
+2: {align: "left", display: true, exportable: true, displayCount: false, sortable: true, filterable: true,…}
+3: {align: "left", display: true, exportable: true, displayCount: false, sortable: true, filterable: true,…}
+4: {align: "left", display: true, exportable: true, displayCount: false, sortable: true, filterable: true,…}
+5: {align: "left", display: true, exportable: true, displayCount: false, sortable: true, filterable: true,…}
+6: {align: "left", display: true, exportable: true, displayCount: false, sortable: true, filterable: true,…}
+7: {align: "left", display: true, exportable: true, displayCount: false, sortable: true, filterable: true,…}
+8: {align: "left", display: true, exportable: true, displayCount: false, sortable: true, filterable: true,…}
+9: {align: "left", display: true, exportable: true, displayCount: false, sortable: true, filterable: true,…}
+10: {align: "left", display: true, exportable: true, displayCount: false, sortable: true, filterable: true,…}
+11: {align: "left", display: true, exportable: true, displayCount: false, sortable: true, filterable: true,…}
+12: {align: "left", display: true, exportable: true, displayCount: false, sortable: true, filterable: true,…}
+13: {align: "left", display: true, exportable: true, displayCount: false, sortable: true, filterable: true,…}
+Pagination: {descending: false, page: 1, rowsPerPage: -1, sortBy: "ITAM", totalItems: 0}
+descending: false
+page: 1
+rowsPerPage: -1
+sortBy: "ITAM"
+totalItems: 0
+Queryname: "edmp-dd-technical"
+System: ""
+
+
+response:
+
+{"Status":"OK","Message":"","Duration":43322887803,"DurationTxt":"43.322887803s","Data":"result.csv","EncoderID":""}
