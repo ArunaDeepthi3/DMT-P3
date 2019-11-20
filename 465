@@ -1,0 +1,7 @@
+Network - Request Payload:
+
+{"AdditionalFilter":{"_id":[{"Type":"eq","Value":"JOB00000000572"}]}}
+
+Response:
+
+{"Status":"NOK","Message":"Permission Denied","Duration":2473,"DurationTxt":"2.473µs","Data":null,"EncoderID":""}
