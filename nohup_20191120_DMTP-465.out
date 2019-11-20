@@ -1,0 +1,1062 @@
+::Trace enable
+[36mINFO[0m[2019/11/20 12:34:16] Reading configuration file                    [36msource[0m="helper/helper.go:86"
+[36mINFO[0m[2019/11/20 12:34:16] => dbUsername : (empty)                       [36msource[0m="helper/helper.go:125"
+[36mINFO[0m[2019/11/20 12:34:16] => dbTimeout : 10                             [36msource[0m="helper/helper.go:127"
+[36mINFO[0m[2019/11/20 12:34:16] => loginExpiration : 72000                    [36msource[0m="helper/helper.go:127"
+[36mINFO[0m[2019/11/20 12:34:16] => port : 9005                                [36msource[0m="helper/helper.go:127"
+[36mINFO[0m[2019/11/20 12:34:16] => sslPrivateKeyPath : /landingarea_IFRS/DMTdev/SCBDMTV3/scb-dmt/webapp/privatekey.pem  [36msource[0m="helper/helper.go:127"
+[36mINFO[0m[2019/11/20 12:34:16] => uploadPublicTemp : temp                    [36msource[0m="helper/helper.go:127"
+[36mINFO[0m[2019/11/20 12:34:16] => mode : prod                                [36msource[0m="helper/helper.go:127"
+[36mINFO[0m[2019/11/20 12:34:16] => dbHost : localhost:27017                   [36msource[0m="helper/helper.go:127"
+[36mINFO[0m[2019/11/20 12:34:16] => sslCertificatePath : /landingarea_IFRS/DMTdev/SCBDMTV3/scb-dmt/webapp/certificate.pem  [36msource[0m="helper/helper.go:127"
+[36mINFO[0m[2019/11/20 12:34:16] => uploadTemp : /landingarea_IFRS/DMTdev/SCBDMTV3/scb-dmt/webapp/assets/temp  [36msource[0m="helper/helper.go:127"
+[36mINFO[0m[2019/11/20 12:34:16] => landingPage : /dashboard/index             [36msource[0m="helper/helper.go:127"
+[36mINFO[0m[2019/11/20 12:34:16] => dbName : SCBDMT_P3                         [36msource[0m="helper/helper.go:127"
+[36mINFO[0m[2019/11/20 12:34:16] => dbPassword : (empty)                       [36msource[0m="helper/helper.go:125"
+[36mINFO[0m[2019/11/20 12:34:16] => uploadPath : /landingarea_IFRS/DMTdev/SCBDMTV3/scb-dmt/webapp/assets/main/images/upload  [36msource[0m="helper/helper.go:127"
+[36mINFO[0m[2019/11/20 12:34:16] => ssl : false                                [36msource[0m="helper/helper.go:127"
+[36mINFO[0m[2019/11/20 12:34:16] Application Version:1.0.3                     [36msource[0m="webapp/main.go:61"
+[36mINFO[0m[2019/11/20 12:34:16] Build Time:2019-11-13T17:53:04                [36msource[0m="webapp/main.go:62"
+[36mINFO[0m[2019/11/20 12:34:16] Connecting to db serverlocalhost:27017SCBDMT_P3  [36msource[0m="webapp/main.go:65"
+[36mINFO[0m[2019/11/20 12:34:16] > > >Connected!                               [36msource[0m="webapp/main.go:71"
+[36mINFO[0m[2019/11/20 12:34:16] ==== Configuring ACL                          [36msource[0m="webapp/main.go:74"
+[36mINFO[0m[2019/11/20 12:34:16] ==== Setup Apps & Controller                  [36msource[0m="webapp/main.go:82"
+[36mINFO[0m[2019/11/20 12:34:16] Setup Controller                              [36msource[0m="controllers/base.go:116"
+[36mINFO[0m[2019/11/20 12:34:16] Creating default temp folderimportexport/xlsxexport/csv  [36msource[0m="controllers/base.go:117"
+[36mINFO[0m[2019/11/20 12:34:16] Loading auth data...                          [36msource[0m="controllers/base.go:125"
+[36mINFO[0m[2019/11/20 12:34:16] 5 data group/role loaded                      [36msource[0m="controllers/base.go:177"
+[36mINFO[0m[2019/11/20 12:34:16] 23 data access loaded                         [36msource[0m="controllers/base.go:205"
+[36mINFO[0m[2019/11/20 12:34:16] 0 data accessibilities synced                 [36msource[0m="controllers/base.go:379"
+[36mINFO[0m[2019/11/20 12:34:16] 8 data group/role accessibilities loaded      [36msource[0m="controllers/base.go:298"
+[36mINFO[0m[2019/11/20 12:34:16] Done Setup                                    [36msource[0m="controllers/base.go:141"
+[36mINFO[0m[2019/11/20 12:34:16] ==== Reset Job                                [36msource[0m="webapp/main.go:96"
+[36mINFO[0m[2019/11/20 12:34:16] [JOB] START Reset Job                         [36msource[0m="helper/helper.go:211"
+[36mINFO[0m[2019/11/20 12:34:16] [JOB] Found 0 Job(s) on pending state         [36msource[0m="helper/helper.go:233"
+[36mINFO[0m[2019/11/20 12:34:16] [JOB] END Reset Job                           [36msource[0m="helper/helper.go:251"
+[36mINFO[0m[2019/11/20 12:34:16] ==== Prepare Default Data                     [36msource[0m="webapp/main.go:104"
+[36mINFO[0m[2019/11/20 12:34:16] Trying to find Default User                   [36msource[0m="helper/DefaultData.go:115"
+[36mINFO[0m[2019/11/20 12:34:16] Default User found, skip creating default access master  [36msource[0m="helper/DefaultData.go:124"
+[36mINFO[0m[2019/11/20 12:34:16] Creating/Update Default Configuration Data    [36msource[0m="helper/DefaultData.go:18"
+[36mINFO[0m[2019/11/20 12:34:16] => Set App Version 1.0.3                      [36msource[0m="helper/DefaultData.go:24"
+[36mINFO[0m[2019/11/20 12:34:16] => Database Version 1.0.3 match with Application Version 1.0.3  [36msource[0m="helper/DefaultData.go:57"
+[36mINFO[0m[2019/11/20 12:34:16] Creating/Update Default subject area_N/A      [36msource[0m="helper/DefaultData.go:69"
+[36mINFO[0m[2019/11/20 12:34:16] Creating/Update Default Sub Process Type      [36msource[0m="helper/DefaultData.go:93"
+[36mINFO[0m[2019/11/20 12:34:16] Configuring view location /landingarea_IFRS/DMTdev/SCBDMTV3/scb-dmt/webapp/views/  [36msource[0m="webapp/main.go:119"
+[36mINFO[0m[2019/11/20 12:34:16] ==== Start Application                        [36msource[0m="webapp/main.go:289"
+[36mINFO[0m[2019/11/20 12:34:16] Reading EDC Integration configuration file    [36msource[0m="helper/helper.go:136"
+[36mINFO[0m[2019/11/20 12:34:16] [EDCIntegration] => username : (empty)        [36msource[0m="helper/helper.go:174"
+[36mINFO[0m[2019/11/20 12:34:16] [EDCIntegration] => password : (empty)        [36msource[0m="helper/helper.go:174"
+[36mINFO[0m[2019/11/20 12:34:16] [EDCIntegration] => time : 00:00:00           [36msource[0m="helper/helper.go:176"
+[36mINFO[0m[2019/11/20 12:34:16] [EDCIntegration] => failArchivePath : /landingarea_IFRS/EDC/EDC_failed_files  [36msource[0m="helper/helper.go:176"
+[36mINFO[0m[2019/11/20 12:34:16] [EDCIntegration] => failOnError : true        [36msource[0m="helper/helper.go:176"
+[36mINFO[0m[2019/11/20 12:34:16] [EDCIntegration] => csvComma : ,              [36msource[0m="helper/helper.go:176"
+[36mINFO[0m[2019/11/20 12:34:16] [EDCIntegration] => path : /landingarea_IFRS/EDC/EDCfile  [36msource[0m="helper/helper.go:176"
+[36mINFO[0m[2019/11/20 12:34:16] [EDCIntegration] => successArchivePath : /landingarea_IFRS/EDC/EDCArchive_file  [36msource[0m="helper/helper.go:176"
+[36mINFO[0m[2019/11/20 12:34:16] [EDCIntegration] => hostname : (empty)        [36msource[0m="helper/helper.go:174"
+INFO 2019/11/20 12:34:16 Scan application  for controller registration
+INFO 2019/11/20 12:34:16 Registering ProjectMasterController
+INFO 2019/11/20 12:34:16 Registering handler for /projectmaster/approvemultiple
+INFO 2019/11/20 12:34:16 Registering handler for /projectmaster/create
+INFO 2019/11/20 12:34:16 Registering handler for /projectmaster/delete
+INFO 2019/11/20 12:34:16 Registering handler for /projectmaster/exportexcel
+INFO 2019/11/20 12:34:16 Registering handler for /projectmaster/get
+INFO 2019/11/20 12:34:16 Registering handler for /projectmaster/getaccessiblitymenubyroute
+INFO 2019/11/20 12:34:16 Registering handler for /projectmaster/getchecker
+INFO 2019/11/20 12:34:16 Registering handler for /projectmaster/getexcel
+INFO 2019/11/20 12:34:16 Registering handler for /projectmaster/getinfo
+INFO 2019/11/20 12:34:16 Registering handler for /projectmaster/getjob
+INFO 2019/11/20 12:34:16 Registering handler for /projectmaster/getrole
+INFO 2019/11/20 12:34:16 Registering handler for /projectmaster/import
+INFO 2019/11/20 12:34:16 Registering handler for /projectmaster/index
+INFO 2019/11/20 12:34:16 Registering handler for /projectmaster/validatesql
+INFO 2019/11/20 12:34:16 Registering ExampleController
+INFO 2019/11/20 12:34:16 Registering handler for /example/getaccessiblitymenubyroute
+INFO 2019/11/20 12:34:16 Registering handler for /example/getchecker
+INFO 2019/11/20 12:34:16 Registering handler for /example/getexcel
+INFO 2019/11/20 12:34:16 Registering handler for /example/getjob
+INFO 2019/11/20 12:34:16 Registering handler for /example/getrole
+INFO 2019/11/20 12:34:16 Registering handler for /example/ktreemap
+INFO 2019/11/20 12:34:16 Registering handler for /example/multiselectvirtualize
+INFO 2019/11/20 12:34:16 Registering handler for /example/querybuilder
+INFO 2019/11/20 12:34:16 Registering handler for /example/querybuilder_modular
+INFO 2019/11/20 12:34:16 Registering handler for /example/treemap
+INFO 2019/11/20 12:34:16 Registering handler for /example/validatesql
+INFO 2019/11/20 12:34:16 Registering JobController
+INFO 2019/11/20 12:34:16 Registering handler for /job/dashboard
+INFO 2019/11/20 12:34:16 Registering handler for /job/get
+INFO 2019/11/20 12:34:16 Registering handler for /job/getaccessiblitymenubyroute
+INFO 2019/11/20 12:34:16 Registering handler for /job/getchecker
+INFO 2019/11/20 12:34:16 Registering handler for /job/getexcel
+INFO 2019/11/20 12:34:16 Registering handler for /job/getjob
+INFO 2019/11/20 12:34:16 Registering handler for /job/getrole
+INFO 2019/11/20 12:34:16 Registering handler for /job/validatesql
+INFO 2019/11/20 12:34:16 Registering DashboardController
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/chartcountrulenamebyprocess
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/exportgridpsfa
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/exportmappingbyprojectsystem
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/generatesummarystatisreport
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/getaccessiblitymenubyroute
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/getanalysisobjectbysubjectarea
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/getanalysissourceattrbysubjectarea
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/getchecker
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/getcountrulenamebyprocess
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/getexcel
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/getgridpsfa
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/getjob
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/getobjdefmappingnetworkdata
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/getproductionpercent
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/getrole
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/getstatsbyfunctionalarea
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/getstatsbyfunctionalarea_old
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/getstatschart4
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/getstatsmapping
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/getstatsmappingattr
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/getstatsobject
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/gridmappingbyprojectsystem
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/home
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/index
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/statistics
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/validatesql
+INFO 2019/11/20 12:34:16 Registering DataMasterController
+INFO 2019/11/20 12:34:16 Registering handler for /datamaster/approvemultiple
+INFO 2019/11/20 12:34:16 Registering handler for /datamaster/create
+INFO 2019/11/20 12:34:16 Registering handler for /datamaster/delete
+INFO 2019/11/20 12:34:16 Registering handler for /datamaster/get
+INFO 2019/11/20 12:34:16 Registering handler for /datamaster/getaccessiblitymenubyroute
+INFO 2019/11/20 12:34:16 Registering handler for /datamaster/getcategory
+INFO 2019/11/20 12:34:16 Registering handler for /datamaster/getchecker
+INFO 2019/11/20 12:34:16 Registering handler for /datamaster/getexcel
+INFO 2019/11/20 12:34:16 Registering handler for /datamaster/getfilterdefinitionchangeversion
+INFO 2019/11/20 12:34:16 Registering handler for /datamaster/getinfo
+INFO 2019/11/20 12:34:16 Registering handler for /datamaster/getjob
+INFO 2019/11/20 12:34:16 Registering handler for /datamaster/getmasterfiltervalue
+INFO 2019/11/20 12:34:16 Registering handler for /datamaster/getrole
+INFO 2019/11/20 12:34:16 Registering handler for /datamaster/index
+INFO 2019/11/20 12:34:16 Registering handler for /datamaster/mapchangelookup
+INFO 2019/11/20 12:34:16 Registering handler for /datamaster/maplookup
+INFO 2019/11/20 12:34:16 Registering handler for /datamaster/validatesql
+INFO 2019/11/20 12:34:16 Registering DataProcessingRuleController
+INFO 2019/11/20 12:34:16 Registering handler for /dataprocessingrule/approvemultiple
+INFO 2019/11/20 12:34:16 Registering handler for /dataprocessingrule/clone
+INFO 2019/11/20 12:34:16 Registering handler for /dataprocessingrule/create
+INFO 2019/11/20 12:34:16 Registering handler for /dataprocessingrule/delete
+INFO 2019/11/20 12:34:16 Registering handler for /dataprocessingrule/exportexcel
+INFO 2019/11/20 12:34:16 Registering handler for /dataprocessingrule/get
+INFO 2019/11/20 12:34:16 Registering handler for /dataprocessingrule/getaccessiblitymenubyroute
+INFO 2019/11/20 12:34:16 Registering handler for /dataprocessingrule/getchecker
+INFO 2019/11/20 12:34:16 Registering handler for /dataprocessingrule/getexcel
+INFO 2019/11/20 12:34:16 Registering handler for /dataprocessingrule/getfiltervaluekendo
+INFO 2019/11/20 12:34:16 Registering handler for /dataprocessingrule/getgrid
+INFO 2019/11/20 12:34:16 Registering handler for /dataprocessingrule/getgridfilter
+INFO 2019/11/20 12:34:16 Registering handler for /dataprocessingrule/getinfo
+INFO 2019/11/20 12:34:16 Registering handler for /dataprocessingrule/getjob
+INFO 2019/11/20 12:34:16 Registering handler for /dataprocessingrule/getobjectfiltervalue
+INFO 2019/11/20 12:34:16 Registering handler for /dataprocessingrule/getrole
+INFO 2019/11/20 12:34:16 Registering handler for /dataprocessingrule/import
+INFO 2019/11/20 12:34:16 Registering handler for /dataprocessingrule/index
+INFO 2019/11/20 12:34:16 Registering handler for /dataprocessingrule/validatesql
+INFO 2019/11/20 12:34:16 Registering EDCIntegrationController
+INFO 2019/11/20 12:34:16 Registering handler for /edcintegration/forcerun
+INFO 2019/11/20 12:34:16 Registering handler for /edcintegration/forcesetup
+INFO 2019/11/20 12:34:16 Registering handler for /edcintegration/getaccessiblitymenubyroute
+INFO 2019/11/20 12:34:16 Registering handler for /edcintegration/getchecker
+INFO 2019/11/20 12:34:16 Registering handler for /edcintegration/getexcel
+INFO 2019/11/20 12:34:16 Registering handler for /edcintegration/getjob
+INFO 2019/11/20 12:34:16 Registering handler for /edcintegration/getrole
+INFO 2019/11/20 12:34:16 Registering handler for /edcintegration/validatesql
+INFO 2019/11/20 12:34:16 Registering AuthController
+INFO 2019/11/20 12:34:16 Registering handler for /auth/dologin
+INFO 2019/11/20 12:34:16 Registering handler for /auth/dologout
+INFO 2019/11/20 12:34:16 Registering handler for /auth/getaccessiblitymenubyroute
+INFO 2019/11/20 12:34:16 Registering handler for /auth/getchecker
+INFO 2019/11/20 12:34:16 Registering handler for /auth/getexcel
+INFO 2019/11/20 12:34:16 Registering handler for /auth/getjob
+INFO 2019/11/20 12:34:16 Registering handler for /auth/getrole
+INFO 2019/11/20 12:34:16 Registering handler for /auth/login
+INFO 2019/11/20 12:34:16 Registering handler for /auth/logout
+INFO 2019/11/20 12:34:16 Registering handler for /auth/page403
+INFO 2019/11/20 12:34:16 Registering handler for /auth/validatesql
+INFO 2019/11/20 12:34:16 Registering ExportController
+INFO 2019/11/20 12:34:16 Registering handler for /export/get
+INFO 2019/11/20 12:34:16 Registering handler for /export/getaccessiblitymenubyroute
+INFO 2019/11/20 12:34:16 Registering handler for /export/getchecker
+INFO 2019/11/20 12:34:16 Registering handler for /export/getexcel
+INFO 2019/11/20 12:34:16 Registering handler for /export/getjob
+INFO 2019/11/20 12:34:16 Registering handler for /export/getrole
+INFO 2019/11/20 12:34:16 Registering handler for /export/index
+INFO 2019/11/20 12:34:16 Registering handler for /export/validatesql
+INFO 2019/11/20 12:34:16 Registering MasterObjectDefinitionController
+INFO 2019/11/20 12:34:16 Registering handler for /masterobjectdefinition/addmembers
+INFO 2019/11/20 12:34:16 Registering handler for /masterobjectdefinition/filterbasename
+INFO 2019/11/20 12:34:16 Registering handler for /masterobjectdefinition/filtersystem
+INFO 2019/11/20 12:34:16 Registering handler for /masterobjectdefinition/getaccessiblitymenubyroute
+INFO 2019/11/20 12:34:16 Registering handler for /masterobjectdefinition/getchecker
+INFO 2019/11/20 12:34:16 Registering handler for /masterobjectdefinition/getexcel
+INFO 2019/11/20 12:34:16 Registering handler for /masterobjectdefinition/getjob
+INFO 2019/11/20 12:34:16 Registering handler for /masterobjectdefinition/getrole
+INFO 2019/11/20 12:34:16 Registering handler for /masterobjectdefinition/groupobject
+INFO 2019/11/20 12:34:16 Registering handler for /masterobjectdefinition/index
+INFO 2019/11/20 12:34:16 Registering handler for /masterobjectdefinition/validatesql
+INFO 2019/11/20 12:34:16 Registering GapAnalysisController
+INFO 2019/11/20 12:34:16 Registering handler for /gapanalysis/exportsearch
+INFO 2019/11/20 12:34:16 Registering handler for /gapanalysis/getaccessiblitymenubyroute
+INFO 2019/11/20 12:34:16 Registering handler for /gapanalysis/getchecker
+INFO 2019/11/20 12:34:16 Registering handler for /gapanalysis/getexcel
+INFO 2019/11/20 12:34:16 Registering handler for /gapanalysis/getjob
+INFO 2019/11/20 12:34:16 Registering handler for /gapanalysis/getrole
+INFO 2019/11/20 12:34:16 Registering handler for /gapanalysis/getsearch
+INFO 2019/11/20 12:34:16 Registering handler for /gapanalysis/getupload
+INFO 2019/11/20 12:34:16 Registering handler for /gapanalysis/index
+INFO 2019/11/20 12:34:16 Registering handler for /gapanalysis/savesearchoption
+INFO 2019/11/20 12:34:16 Registering handler for /gapanalysis/search
+INFO 2019/11/20 12:34:16 Registering handler for /gapanalysis/upload
+INFO 2019/11/20 12:34:16 Registering handler for /gapanalysis/validatesql
+INFO 2019/11/20 12:34:16 Registering AccessController
+INFO 2019/11/20 12:34:16 Registering handler for /access/deleteaccessmenu
+INFO 2019/11/20 12:34:16 Registering handler for /access/deleteaccessibility
+INFO 2019/11/20 12:34:16 Registering handler for /access/deletegroup
+INFO 2019/11/20 12:34:16 Registering handler for /access/deleteuser
+INFO 2019/11/20 12:34:16 Registering handler for /access/exportexcelaudittrail
+INFO 2019/11/20 12:34:16 Registering handler for /access/exportexcelrolemetrics
+INFO 2019/11/20 12:34:16 Registering handler for /access/exportexcelusermetrics
+INFO 2019/11/20 12:34:16 Registering handler for /access/exportlog
+INFO 2019/11/20 12:34:16 Registering handler for /access/getaccessmenu
+INFO 2019/11/20 12:34:16 Registering handler for /access/getaccessmenuforcurrentuser
+INFO 2019/11/20 12:34:16 Registering handler for /access/getaccessibility
+INFO 2019/11/20 12:34:16 Registering handler for /access/getaccessiblitymenubyroute
+INFO 2019/11/20 12:34:16 Registering handler for /access/getactivitylog
+INFO 2019/11/20 12:34:16 Registering handler for /access/getactivitylogfilter
+INFO 2019/11/20 12:34:16 Registering handler for /access/getchecker
+INFO 2019/11/20 12:34:16 Registering handler for /access/getexcel
+INFO 2019/11/20 12:34:16 Registering handler for /access/getgroup
+INFO 2019/11/20 12:34:16 Registering handler for /access/getjob
+INFO 2019/11/20 12:34:16 Registering handler for /access/getrole
+INFO 2019/11/20 12:34:16 Registering handler for /access/getsession
+INFO 2019/11/20 12:34:16 Registering handler for /access/getuser
+INFO 2019/11/20 12:34:16 Registering handler for /access/master
+INFO 2019/11/20 12:34:16 Registering handler for /access/moveaccessmenu
+INFO 2019/11/20 12:34:16 Registering handler for /access/resetaclcache
+INFO 2019/11/20 12:34:16 Registering handler for /access/saveaccessmenu
+INFO 2019/11/20 12:34:16 Registering handler for /access/saveaccessibility
+INFO 2019/11/20 12:34:16 Registering handler for /access/savegroup
+INFO 2019/11/20 12:34:16 Registering handler for /access/saveuser
+INFO 2019/11/20 12:34:16 Registering handler for /access/selectaccessmenu
+INFO 2019/11/20 12:34:16 Registering handler for /access/selectaccessibility
+INFO 2019/11/20 12:34:16 Registering handler for /access/selectgroup
+INFO 2019/11/20 12:34:16 Registering handler for /access/selectuser
+INFO 2019/11/20 12:34:16 Registering handler for /access/validatesql
+INFO 2019/11/20 12:34:16 Registering SourceSysCodeMasterController
+INFO 2019/11/20 12:34:16 Registering handler for /sourcesyscodemaster/approvemultiple
+INFO 2019/11/20 12:34:16 Registering handler for /sourcesyscodemaster/create
+INFO 2019/11/20 12:34:16 Registering handler for /sourcesyscodemaster/delete
+INFO 2019/11/20 12:34:16 Registering handler for /sourcesyscodemaster/get
+INFO 2019/11/20 12:34:16 Registering handler for /sourcesyscodemaster/getaccessiblitymenubyroute
+INFO 2019/11/20 12:34:16 Registering handler for /sourcesyscodemaster/getchecker
+INFO 2019/11/20 12:34:16 Registering handler for /sourcesyscodemaster/getcountries
+INFO 2019/11/20 12:34:16 Registering handler for /sourcesyscodemaster/getcountry
+INFO 2019/11/20 12:34:16 Registering handler for /sourcesyscodemaster/getexcel
+INFO 2019/11/20 12:34:16 Registering handler for /sourcesyscodemaster/getfilter
+INFO 2019/11/20 12:34:16 Registering handler for /sourcesyscodemaster/getinfo
+INFO 2019/11/20 12:34:16 Registering handler for /sourcesyscodemaster/getjob
+INFO 2019/11/20 12:34:16 Registering handler for /sourcesyscodemaster/getrole
+INFO 2019/11/20 12:34:16 Registering handler for /sourcesyscodemaster/index
+INFO 2019/11/20 12:34:16 Registering handler for /sourcesyscodemaster/validatesql
+INFO 2019/11/20 12:34:16 Registering AppLayerMasterController
+INFO 2019/11/20 12:34:16 Registering handler for /applayermaster/approvemultiple
+INFO 2019/11/20 12:34:16 Registering handler for /applayermaster/create
+INFO 2019/11/20 12:34:16 Registering handler for /applayermaster/delete
+INFO 2019/11/20 12:34:16 Registering handler for /applayermaster/get
+INFO 2019/11/20 12:34:16 Registering handler for /applayermaster/getaccessiblitymenubyroute
+INFO 2019/11/20 12:34:16 Registering handler for /applayermaster/getchecker
+INFO 2019/11/20 12:34:16 Registering handler for /applayermaster/getexcel
+INFO 2019/11/20 12:34:16 Registering handler for /applayermaster/getgeneralmaster
+INFO 2019/11/20 12:34:16 Registering handler for /applayermaster/getinfo
+INFO 2019/11/20 12:34:16 Registering handler for /applayermaster/getjob
+INFO 2019/11/20 12:34:16 Registering handler for /applayermaster/getrole
+INFO 2019/11/20 12:34:16 Registering handler for /applayermaster/index
+INFO 2019/11/20 12:34:16 Registering handler for /applayermaster/validatesql
+INFO 2019/11/20 12:34:16 Registering UserProfileController
+INFO 2019/11/20 12:34:16 Registering handler for /userprofile/getaccessiblitymenubyroute
+INFO 2019/11/20 12:34:16 Registering handler for /userprofile/getchecker
+INFO 2019/11/20 12:34:16 Registering handler for /userprofile/getexcel
+INFO 2019/11/20 12:34:16 Registering handler for /userprofile/getjob
+INFO 2019/11/20 12:34:16 Registering handler for /userprofile/getrole
+INFO 2019/11/20 12:34:16 Registering handler for /userprofile/index
+INFO 2019/11/20 12:34:16 Registering handler for /userprofile/validatesql
+INFO 2019/11/20 12:34:16 Registering MapGroupController
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/approvemultiple
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/create
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/delete
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/development_script
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/export
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/exportdevelopmentscript
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/exportschemacomparison
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/exporttestscript
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/generatetestscript
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/get
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/getaccessiblitymenubyroute
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/getallselect
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/getallvalidsources
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/getchecker
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/getexcel
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/getfiltervaluekendo
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/getinfo
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/getjob
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/getrole
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/getschemacomparison
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/getvalidobjectid
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/getvalidsources
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/getwherecondgrid
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/getwherehavingcondition
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/index
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/join
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/one
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/process_metadata
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/test_script
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/updatesection
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/validatesql
+INFO 2019/11/20 12:34:16 Registering handler for /mapgroup/where
+INFO 2019/11/20 12:34:16 Registering DataTypeComparatorController
+INFO 2019/11/20 12:34:16 Registering handler for /datatypecomparator/create
+INFO 2019/11/20 12:34:16 Registering handler for /datatypecomparator/dashboard
+INFO 2019/11/20 12:34:16 Registering handler for /datatypecomparator/delete
+INFO 2019/11/20 12:34:16 Registering handler for /datatypecomparator/evaluateexpression
+INFO 2019/11/20 12:34:16 Registering handler for /datatypecomparator/get
+INFO 2019/11/20 12:34:16 Registering handler for /datatypecomparator/getaccessiblitymenubyroute
+INFO 2019/11/20 12:34:16 Registering handler for /datatypecomparator/getchecker
+INFO 2019/11/20 12:34:16 Registering handler for /datatypecomparator/getexcel
+INFO 2019/11/20 12:34:16 Registering handler for /datatypecomparator/getjob
+INFO 2019/11/20 12:34:16 Registering handler for /datatypecomparator/getrole
+INFO 2019/11/20 12:34:16 Registering handler for /datatypecomparator/validatesql
+INFO 2019/11/20 12:34:16 Registering ObjectDefinitionController
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/approvemultiple
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/approvemultiplestructure
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/cloneattribute
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/cloneobject
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/create
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/delete
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/deletestructure
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/exportexcel
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/exportexcelstructure
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/exporttestscript
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/generatetestscript
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/get
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/getaccessiblitymenubyroute
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/getalias
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/getchecker
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/getexcel
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/getinfo
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/getinfostructure
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/getjob
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/getjoinefstruct
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/getobjectfiltervalue
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/getobjectfiltervaluekendo
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/getobjectsource
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/getobjectstructurephysicalname
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/getobjecttarget
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/getrole
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/getstructure
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/getstructure2
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/getvalidalias
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/import
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/importstructure
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/index
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/massapprove
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/multipleimport
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/one
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/onestructure
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/updatesection
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/validatesql
+INFO 2019/11/20 12:34:16 Registering MappingController
+INFO 2019/11/20 12:34:16 Registering handler for /mapping/approvemultiple
+INFO 2019/11/20 12:34:16 Registering handler for /mapping/clonemapping
+INFO 2019/11/20 12:34:16 Registering handler for /mapping/create
+INFO 2019/11/20 12:34:16 Registering handler for /mapping/createmulti
+INFO 2019/11/20 12:34:16 Registering handler for /mapping/delete
+INFO 2019/11/20 12:34:16 Registering handler for /mapping/export1
+INFO 2019/11/20 12:34:16 Registering handler for /mapping/exportexcel
+INFO 2019/11/20 12:34:16 Registering handler for /mapping/exportexceldashboard
+INFO 2019/11/20 12:34:16 Registering handler for /mapping/get
+INFO 2019/11/20 12:34:16 Registering handler for /mapping/get2
+INFO 2019/11/20 12:34:16 Registering handler for /mapping/getaccessiblitymenubyroute
+INFO 2019/11/20 12:34:16 Registering handler for /mapping/getchecker
+INFO 2019/11/20 12:34:16 Registering handler for /mapping/getexcel
+INFO 2019/11/20 12:34:16 Registering handler for /mapping/getfilterdefinition
+INFO 2019/11/20 12:34:16 Registering handler for /mapping/getgraph
+INFO 2019/11/20 12:34:16 Registering handler for /mapping/getinfo
+INFO 2019/11/20 12:34:16 Registering handler for /mapping/getjob
+INFO 2019/11/20 12:34:16 Registering handler for /mapping/getobjectfiltervalue
+INFO 2019/11/20 12:34:16 Registering handler for /mapping/getrole
+INFO 2019/11/20 12:34:16 Registering handler for /mapping/getwithhistory
+INFO 2019/11/20 12:34:16 Registering handler for /mapping/import
+INFO 2019/11/20 12:34:16 Registering handler for /mapping/index
+INFO 2019/11/20 12:34:16 Registering handler for /mapping/manageproject
+INFO 2019/11/20 12:34:16 Registering handler for /mapping/validatesql
+INFO 2019/11/20 12:34:16 Registering ImportController
+INFO 2019/11/20 12:34:16 Registering handler for /import/getaccessiblitymenubyroute
+INFO 2019/11/20 12:34:16 Registering handler for /import/getchecker
+INFO 2019/11/20 12:34:16 Registering handler for /import/getexcel
+INFO 2019/11/20 12:34:16 Registering handler for /import/getjob
+INFO 2019/11/20 12:34:16 Registering handler for /import/getrole
+INFO 2019/11/20 12:34:16 Registering handler for /import/importobjects
+INFO 2019/11/20 12:34:16 Registering handler for /import/index
+INFO 2019/11/20 12:34:16 Registering handler for /import/validateobjects
+INFO 2019/11/20 12:34:16 Registering handler for /import/validatesql
+INFO 2019/11/20 12:34:16 Add static /static/ from /landingarea_IFRS/DMTdev/SCBDMTV3/scb-dmt/webapp/assets
+INFO 2019/11/20 12:34:16 Registering handler for /status
+INFO 2019/11/20 12:34:16 Registering handler for /stop
+INFO 2019/11/20 12:34:16 Registering handler for /
+INFO 2019/11/20 12:34:16 Registering handler for /robot.txt
+INFO 2019/11/20 12:34:16 Registering handler for /export/
+INFO 2019/11/20 12:34:16 Registering handler for /auth/
+INFO 2019/11/20 12:34:16 Registering handler for /projectmaster/
+INFO 2019/11/20 12:34:16 Registering handler for /datamaster/
+INFO 2019/11/20 12:34:16 Registering handler for /userprofile/
+INFO 2019/11/20 12:34:16 Registering handler for /access/
+INFO 2019/11/20 12:34:16 Registering handler for /objectdefinition/
+INFO 2019/11/20 12:34:16 Registering handler for /mapping/
+INFO 2019/11/20 12:34:16 Registering handler for /dataprocessingrule/
+INFO 2019/11/20 12:34:16 Registering handler for /applayermaster/
+INFO 2019/11/20 12:34:16 Registering handler for /favicon.ico
+INFO 2019/11/20 12:34:16 Registering handler for /dashboard/
+INFO 2019/11/20 12:34:16 Registering handler for /sourcesyscodemaster/
+INFO 2019/11/20 12:34:16 Registering handler for /import/
+INFO 2019/11/20 12:34:16 Start listening on server :9005
+[37mDEBU[0m[2019/11/20 12:34:19] => Request /gapanalysis/index from 10.20.174.212:9005 - 9788d4f422d32d08cee83a7eedbce702  [37msource[0m="webapp/main.go:191"
+[36mINFO[0m[2019/11/20 12:34:19] Get Server:9005                               [36msource[0m="controllers/base.go:1091"
+[37mDEBU[0m[2019/11/20 12:34:19] AppName: , Controller: auth, Action: login, Query: ?NotAllowed=You don't have permission to access requested page /gapanalysis/index  [37msource[0m="controllers/base.go:1103"
+[36mINFO[0m[2019/11/20 12:34:19] Redirect: /auth/login?NotAllowed=You don't have permission to access requested page /gapanalysis/index  [36msource[0m="controllers/base.go:1104"
+[37mDEBU[0m[2019/11/20 12:34:19] <= End Request /gapanalysis/index from 10.20.174.212:9005 - 9788d4f422d32d08cee83a7eedbce702 [1.603213ms]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:19] => Request /auth/login?NotAllowed=You%20don%27t%20have%20permission%20to%20access%20requested%20page%20/gapanalysis/index from 10.20.174.212:9005 - a77370b8863a07404492643afd590a69  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:19] <= End Request /auth/login?NotAllowed=You%20don%27t%20have%20permission%20to%20access%20requested%20page%20/gapanalysis/index from 10.20.174.212:9005 - a77370b8863a07404492643afd590a69 [277.469µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:19] => Request /access/getaccessmenuforcurrentuser from 10.20.174.212:9005 - 67c66a288ae7353ea78f066ac6207732  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:19] <= End Request /access/getaccessmenuforcurrentuser from 10.20.174.212:9005 - 67c66a288ae7353ea78f066ac6207732 [765.216µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:26] => Request /auth/dologin from 10.20.174.212:9005 - 7dbc5bc38ad57f746d9354a249e09357  [37msource[0m="webapp/main.go:191"
+[36mINFO[0m[2019/11/20 12:34:26] User Logged in: 123456                        [36msource[0m="controllers/auth.go:122"
+[37mDEBU[0m[2019/11/20 12:34:26] <= End Request /auth/dologin from 10.20.174.212:9005 - 7dbc5bc38ad57f746d9354a249e09357 [7.919545ms]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:27] => Request /dashboard/home from 10.20.174.212:9005 - 2ef13885ef84bd07e10ff5492209993f  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:27] Role admin Access check prefix /dashboard/home : /dashboard/home [read] = true  [37msource[0m="controllers/base.go:939"
+[37mDEBU[0m[2019/11/20 12:34:27] <= End Request /dashboard/home from 10.20.174.212:9005 - 2ef13885ef84bd07e10ff5492209993f [2.498421ms]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:34] => Request /gapanalysis/index from 10.20.174.212:9005 - e055706fd29ed3539ec1dd297ad01e5d  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:34] Role admin Access check prefix /gapanalysis/index : /gapanalysis/index [] = true  [37msource[0m="controllers/base.go:939"
+[37mDEBU[0m[2019/11/20 12:34:34] <= End Request /gapanalysis/index from 10.20.174.212:9005 - e055706fd29ed3539ec1dd297ad01e5d [1.902606ms]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:35] => Request /access/getaccessiblitymenubyroute from 10.20.174.212:9005 - 8c7f728ba831f32e29ae8cd0e63e6313  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:35] <= End Request /access/getaccessiblitymenubyroute from 10.20.174.212:9005 - 8c7f728ba831f32e29ae8cd0e63e6313 [328.05µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:35] => Request /access/getaccessmenuforcurrentuser from 10.20.174.212:9005 - 42fea3d6b312ac0e3479f3ffcf54b34d  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:35] <= End Request /access/getaccessmenuforcurrentuser from 10.20.174.212:9005 - 42fea3d6b312ac0e3479f3ffcf54b34d [222.077µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:35] => Request /datamaster/get from 10.20.174.212:9005 - f73005362bc942544518de95f822614b  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:35] Role admin Access check glob /datamaster/get : /datamaster/get* [read] = true  [37msource[0m="controllers/base.go:939"
+[37mDEBU[0m[2019/11/20 12:34:35] => Request /projectmaster/get from 10.20.174.212:9005 - c0a6aa93d64d3118aa884fd4011d873e  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:35] Role admin Access check glob /projectmaster/get : /projectmaster/* [read] = true  [37msource[0m="controllers/base.go:939"
+[37mDEBU[0m[2019/11/20 12:34:35] => Request /mapping/getfilterdefinition from 10.20.174.212:9005 - a28aa6bf97873719bf0d957fa99ff012  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:35] Role admin Access check glob /mapping/getfilterdefinition : /mapping/* [read] = true  [37msource[0m="controllers/base.go:939"
+[37mDEBU[0m[2019/11/20 12:34:35] {"ObjectSystemName":null,"ObjectPhysicalName":null,"AttributePhysicalName":null,"MappingVersion":null,"ChangeVersion":null,"CountryName":null,"AppLayerName":null,"MapGroup":null,"Production":"","Status":"","PendingStatus":"","PerPage":0,"Page":0,"SortField":"","SortType":"","FieldReq":"system","DataProcessingRuleName":null,"FieldReqs":{"Id":"","Name":""},"SkipAddEmptyData":true}  [37msource[0m="controllers/Mapping.go:5813"
+[37mDEBU[0m[2019/11/20 12:34:35] <= End Request /projectmaster/get from 10.20.174.212:9005 - c0a6aa93d64d3118aa884fd4011d873e [1.896588ms]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:35] => Request /mapping/getfilterdefinition from 10.20.174.212:9005 - a51a886cbea3d52615c868e3b9169b1a  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:35] Role admin Access check glob /mapping/getfilterdefinition : /mapping/* [read] = true  [37msource[0m="controllers/base.go:939"
+[37mDEBU[0m[2019/11/20 12:34:35] {"ObjectSystemName":null,"ObjectPhysicalName":null,"AttributePhysicalName":null,"MappingVersion":null,"ChangeVersion":null,"CountryName":null,"AppLayerName":null,"MapGroup":null,"Production":"","Status":"","PendingStatus":"","PerPage":10,"Page":0,"SortField":"","SortType":"","FieldReq":"object","DataProcessingRuleName":null,"FieldReqs":{"Id":"sourceobjectid","PhysicalName":""},"SkipAddEmptyData":true}  [37msource[0m="controllers/Mapping.go:5813"
+[37mDEBU[0m[2019/11/20 12:34:35] <= End Request /datamaster/get from 10.20.174.212:9005 - f73005362bc942544518de95f822614b [5.687111ms]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:35] => Request /mapping/getfilterdefinition from 10.20.174.212:9005 - d4358a570cc30f62a05b49fc29487c5e  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:35] Role admin Access check glob /mapping/getfilterdefinition : /mapping/get* [read] = true  [37msource[0m="controllers/base.go:939"
+[37mDEBU[0m[2019/11/20 12:34:35] {"ObjectSystemName":null,"ObjectPhysicalName":null,"AttributePhysicalName":null,"MappingVersion":null,"ChangeVersion":null,"CountryName":null,"AppLayerName":null,"MapGroup":null,"Production":"false","Status":"","PendingStatus":"","PerPage":10,"Page":0,"SortField":"","SortType":"","FieldReq":"attribute","DataProcessingRuleName":null,"FieldReqs":{"PhysicalName":""},"SkipAddEmptyData":true}  [37msource[0m="controllers/Mapping.go:5813"
+[37mDEBU[0m[2019/11/20 12:34:35] MATCH AGGR{"$match":{"$and":[{"isprod":"false"}]}}  [37msource[0m="controllers/Mapping.go:5577"
+[37mDEBU[0m[2019/11/20 12:34:36] => Request /objectdefinition/getobjectfiltervalue from 10.20.174.212:9005 - f819e4fb29503d1b04b90fdcca9a395d  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:36] Role admin Access check glob /objectdefinition/getobjectfiltervalue : /objectdefinition/* [read] = true  [37msource[0m="controllers/base.go:939"
+[37mDEBU[0m[2019/11/20 12:34:36] => Request /objectdefinition/getobjectfiltervalue from 10.20.174.212:9005 - 70bf42997cb438176ad7cd52a9084520  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:36] Role admin Access check glob /objectdefinition/getobjectfiltervalue : /objectdefinition/get* [read] = true  [37msource[0m="controllers/base.go:939"
+[37mDEBU[0m[2019/11/20 12:34:36] <= End Request /objectdefinition/getobjectfiltervalue from 10.20.174.212:9005 - f819e4fb29503d1b04b90fdcca9a395d [21.168491ms]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:36] => Request /gapanalysis/getsearch from 10.20.174.212:9005 - 9d488396f0966a5d90b16621891b6c0c  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:36] Role admin Access check glob /gapanalysis/getsearch : /gapanalysis/* [] = true  [37msource[0m="controllers/base.go:939"
+[37mDEBU[0m[2019/11/20 12:34:36] <= End Request /gapanalysis/getsearch from 10.20.174.212:9005 - 9d488396f0966a5d90b16621891b6c0c [4.056908ms]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:36] <= End Request /objectdefinition/getobjectfiltervalue from 10.20.174.212:9005 - 70bf42997cb438176ad7cd52a9084520 [13.804668ms]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:36] MATCH AGGR{"$match":{"$and":[{"isprod":"false"}]}}  [37msource[0m="controllers/Mapping.go:5577"
+[37mDEBU[0m[2019/11/20 12:34:36] => Request /gapanalysis/getupload from 10.20.174.212:9005 - 984c5270d2dd307759d359e3af9a3b27  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:36] Role admin Access check glob /gapanalysis/getupload : /gapanalysis/* [] = true  [37msource[0m="controllers/base.go:939"
+[37mDEBU[0m[2019/11/20 12:34:36] <= End Request /gapanalysis/getupload from 10.20.174.212:9005 - 984c5270d2dd307759d359e3af9a3b27 [2.727384ms]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:36] <= End Request /mapping/getfilterdefinition from 10.20.174.212:9005 - d4358a570cc30f62a05b49fc29487c5e [261.587048ms]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:36] <= End Request /mapping/getfilterdefinition from 10.20.174.212:9005 - a28aa6bf97873719bf0d957fa99ff012 [334.357796ms]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:36] <= End Request /mapping/getfilterdefinition from 10.20.174.212:9005 - a51a886cbea3d52615c868e3b9169b1a [334.993304ms]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:41] => Request /gapanalysis/exportsearch from 10.20.174.212:9005 - ff13157f0e60836ec788cf8c6bb8f96a  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:41] Role admin Access check glob /gapanalysis/exportsearch : /gapanalysis/* [] = true  [37msource[0m="controllers/base.go:939"
+[36mINFO[0m[2019/11/20 12:34:41] [JOB] Insert Job Name: Gap Analysis - Generate Search Report - 20191120123441, Type: EXPORT  [36msource[0m="controllers/base.go:1959"
+[36mINFO[0m[2019/11/20 12:34:41] Start processing File: /landingarea_IFRS/DMTdev/SCBDMTV3/scb-dmt/webapp/assets/temp/export/xlsx/20191120123441_GapAnalysisSavedSearch.xlsx  [36msource[0m="controllers/GapAnalysis.go:578"
+[37mDEBU[0m[2019/11/20 12:34:41] <= End Request /gapanalysis/exportsearch from 10.20.174.212:9005 - ff13157f0e60836ec788cf8c6bb8f96a [17.628172ms]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:41] ["ICM"]2                                      [37msource[0m="models/GapAnalysisModel.go:121"
+[37mDEBU[0m[2019/11/20 12:34:41] ITAMID50403,50402                             [37msource[0m="models/GapAnalysisModel.go:130"
+[37mDEBU[0m[2019/11/20 12:34:41] []0                                           [37msource[0m="models/GapAnalysisModel.go:121"
+[36mINFO[0m[2019/11/20 12:34:41] Done processing File:  Output At/landingarea_IFRS/DMTdev/SCBDMTV3/scb-dmt/webapp/assets/temp/export/xlsx/20191120123441_GapAnalysisSavedSearch.xlsx  [36msource[0m="controllers/GapAnalysis.go:623"
+[36mINFO[0m[2019/11/20 12:34:41] [JOB] Set Job ID: JOB00000000572, Status: 1   [36msource[0m="controllers/base.go:1981"
+[37mDEBU[0m[2019/11/20 12:34:42] => Request /job/get from 10.20.174.212:9005 - d37f58f60650ea3840c39d428816cf05  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:42] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:34:42] <= End Request /job/get from 10.20.174.212:9005 - d37f58f60650ea3840c39d428816cf05 [675.704µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:43] => Request /job/get from 10.20.174.212:9005 - c00c7f04c543ff0e9069fef663fadf3e  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:43] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:34:43] <= End Request /job/get from 10.20.174.212:9005 - c00c7f04c543ff0e9069fef663fadf3e [423.807µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:44] => Request /job/get from 10.20.174.212:9005 - f346862d8859a253bd6d824edc73316e  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:44] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:34:44] <= End Request /job/get from 10.20.174.212:9005 - f346862d8859a253bd6d824edc73316e [450.982µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:45] => Request /job/get from 10.20.174.212:9005 - 149824a8445f5a431e6f990823bb495a  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:45] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:34:45] <= End Request /job/get from 10.20.174.212:9005 - 149824a8445f5a431e6f990823bb495a [372.589µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:46] => Request /job/get from 10.20.174.212:9005 - c3eeee75a498c87fb2b1ab7c9512065f  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:46] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:34:46] <= End Request /job/get from 10.20.174.212:9005 - c3eeee75a498c87fb2b1ab7c9512065f [398.292µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:47] => Request /job/get from 10.20.174.212:9005 - ac6b3aad52fca54621e0be23dc0eb526  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:47] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:34:47] <= End Request /job/get from 10.20.174.212:9005 - ac6b3aad52fca54621e0be23dc0eb526 [303.52µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:48] => Request /job/get from 10.20.174.212:9005 - b1e09471ec0bf069545a66e1c2ba8b71  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:48] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:34:48] <= End Request /job/get from 10.20.174.212:9005 - b1e09471ec0bf069545a66e1c2ba8b71 [821.855µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:49] => Request /job/get from 10.20.174.212:9005 - 80c3399056dfce15e6a1f3063c904709  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:49] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:34:49] <= End Request /job/get from 10.20.174.212:9005 - 80c3399056dfce15e6a1f3063c904709 [298.699µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:50] => Request /job/get from 10.20.174.212:9005 - 7e5cb670b1195c4ef65c997aa53d1064  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:50] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:34:50] <= End Request /job/get from 10.20.174.212:9005 - 7e5cb670b1195c4ef65c997aa53d1064 [4.611833ms]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:51] => Request /job/get from 10.20.174.212:9005 - 8ce3e6f37237226212fc839b7d99f073  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:51] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:34:51] <= End Request /job/get from 10.20.174.212:9005 - 8ce3e6f37237226212fc839b7d99f073 [310.347µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:52] => Request /job/get from 10.20.174.212:9005 - ddbdba8feb332d2e876ead921f46dd0d  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:52] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:34:52] <= End Request /job/get from 10.20.174.212:9005 - ddbdba8feb332d2e876ead921f46dd0d [292.882µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:53] => Request /job/get from 10.20.174.212:9005 - 307127fed9185e6ea51f5d385acb6868  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:53] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:34:53] <= End Request /job/get from 10.20.174.212:9005 - 307127fed9185e6ea51f5d385acb6868 [388.873µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:54] => Request /job/get from 10.20.174.212:9005 - c9691476aa6b45186cc340d2fe7b6236  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:54] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:34:54] <= End Request /job/get from 10.20.174.212:9005 - c9691476aa6b45186cc340d2fe7b6236 [289.695µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:55] => Request /job/get from 10.20.174.212:9005 - 010654bb06da642f533e5edd7fda644a  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:55] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:34:55] <= End Request /job/get from 10.20.174.212:9005 - 010654bb06da642f533e5edd7fda644a [271.594µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:56] => Request /job/get from 10.20.174.212:9005 - 8c72bfb00be3472ec694bed323e9032f  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:56] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:34:56] <= End Request /job/get from 10.20.174.212:9005 - 8c72bfb00be3472ec694bed323e9032f [824.456µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:57] => Request /job/get from 10.20.174.212:9005 - 2089a2e3f2e3fc49f811f5984f8e4b5d  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:57] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:34:57] <= End Request /job/get from 10.20.174.212:9005 - 2089a2e3f2e3fc49f811f5984f8e4b5d [813.361µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:58] => Request /job/get from 10.20.174.212:9005 - 923cc6aa07608a4f1d21fab1b1cff146  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:58] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:34:58] <= End Request /job/get from 10.20.174.212:9005 - 923cc6aa07608a4f1d21fab1b1cff146 [344.476µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:34:59] => Request /job/get from 10.20.174.212:9005 - 61e90c29ebdaf638334d632464448e2e  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:34:59] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:34:59] <= End Request /job/get from 10.20.174.212:9005 - 61e90c29ebdaf638334d632464448e2e [414.595µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:00] => Request /job/get from 10.20.174.212:9005 - d5d04b44eaac9b3586ede8ad49a79e18  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:00] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:00] <= End Request /job/get from 10.20.174.212:9005 - d5d04b44eaac9b3586ede8ad49a79e18 [3.756545ms]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:01] => Request /job/get from 10.20.174.212:9005 - a7838ba062c04e78c822c3c53911cd74  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:01] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:01] <= End Request /job/get from 10.20.174.212:9005 - a7838ba062c04e78c822c3c53911cd74 [276.31µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:02] => Request /job/get from 10.20.174.212:9005 - b971564c4835f1540e1d0c125641cd50  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:02] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:02] <= End Request /job/get from 10.20.174.212:9005 - b971564c4835f1540e1d0c125641cd50 [316.107µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:03] => Request /job/get from 10.20.174.212:9005 - a1f6a8fd0a1c471ece9d1800013d7a6d  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:03] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:03] <= End Request /job/get from 10.20.174.212:9005 - a1f6a8fd0a1c471ece9d1800013d7a6d [288.732µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:04] => Request /job/get from 10.20.174.212:9005 - f2ef1ef2780f5f75262b9cad581e7127  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:04] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:04] <= End Request /job/get from 10.20.174.212:9005 - f2ef1ef2780f5f75262b9cad581e7127 [348.669µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:05] => Request /job/get from 10.20.174.212:9005 - 2bc1ce7ddd00012bddabc350e4f71370  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:05] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:05] <= End Request /job/get from 10.20.174.212:9005 - 2bc1ce7ddd00012bddabc350e4f71370 [321.956µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:06] => Request /job/get from 10.20.174.212:9005 - c4eda22a81709247d8602762d682c607  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:06] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:06] <= End Request /job/get from 10.20.174.212:9005 - c4eda22a81709247d8602762d682c607 [272.338µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:07] => Request /job/get from 10.20.174.212:9005 - 796e6c33283f61710ee6bf3c5ade1713  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:07] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:07] <= End Request /job/get from 10.20.174.212:9005 - 796e6c33283f61710ee6bf3c5ade1713 [441.227µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:08] => Request /job/get from 10.20.174.212:9005 - be4767680b2e9c3afa2f2a76930eab5c  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:08] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:08] <= End Request /job/get from 10.20.174.212:9005 - be4767680b2e9c3afa2f2a76930eab5c [344.276µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:09] => Request /job/get from 10.20.174.212:9005 - 5d41319e24ede07bf26e0dd0394cdd4d  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:09] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:09] <= End Request /job/get from 10.20.174.212:9005 - 5d41319e24ede07bf26e0dd0394cdd4d [677.067µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:10] => Request /job/get from 10.20.174.212:9005 - 3c5f4494460d9d0ebac7ff5722ed114f  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:10] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:10] <= End Request /job/get from 10.20.174.212:9005 - 3c5f4494460d9d0ebac7ff5722ed114f [282.574µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:11] => Request /job/get from 10.20.174.212:9005 - b0f496178f5adb546c0287e11c0abe02  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:11] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:11] <= End Request /job/get from 10.20.174.212:9005 - b0f496178f5adb546c0287e11c0abe02 [310.394µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:12] => Request /job/get from 10.20.174.212:9005 - d7e95b5376b9e314ec4ef30e42f2b845  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:12] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:12] <= End Request /job/get from 10.20.174.212:9005 - d7e95b5376b9e314ec4ef30e42f2b845 [510.443µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:13] => Request /job/get from 10.20.174.212:9005 - 640683d04f613a3fb4c39d74b95dc94c  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:13] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:13] <= End Request /job/get from 10.20.174.212:9005 - 640683d04f613a3fb4c39d74b95dc94c [305.907µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:14] => Request /job/get from 10.20.174.212:9005 - 3f92f9e4e39680536ca28400c4ae1432  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:14] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:14] <= End Request /job/get from 10.20.174.212:9005 - 3f92f9e4e39680536ca28400c4ae1432 [293.03µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:15] => Request /job/get from 10.20.174.212:9005 - db59692cee761a274ae4a650ec84e91b  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:15] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:15] <= End Request /job/get from 10.20.174.212:9005 - db59692cee761a274ae4a650ec84e91b [390.079µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:16] => Request /job/get from 10.20.174.212:9005 - 408be1f4d2daca02546da1eca1f3e515  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:16] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:16] <= End Request /job/get from 10.20.174.212:9005 - 408be1f4d2daca02546da1eca1f3e515 [318.132µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:17] => Request /job/get from 10.20.174.212:9005 - 1d33483e7f2bf07807a97e05036ffa18  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:17] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:17] <= End Request /job/get from 10.20.174.212:9005 - 1d33483e7f2bf07807a97e05036ffa18 [313.924µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:18] => Request /job/get from 10.20.174.212:9005 - 5472896a128d434357b6c36eb942fd6e  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:18] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:18] <= End Request /job/get from 10.20.174.212:9005 - 5472896a128d434357b6c36eb942fd6e [437.434µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:19] => Request /job/get from 10.20.174.212:9005 - 7e2c9800e6efdb378ecfecba852c0a67  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:19] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:19] <= End Request /job/get from 10.20.174.212:9005 - 7e2c9800e6efdb378ecfecba852c0a67 [317.752µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:20] => Request /job/get from 10.20.174.212:9005 - c7bc074d5ebaa61526a17cf55667a77a  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:20] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:20] <= End Request /job/get from 10.20.174.212:9005 - c7bc074d5ebaa61526a17cf55667a77a [436.903µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:21] => Request /job/get from 10.20.174.212:9005 - 706d4c0907494831b661d3ba159bd91d  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:21] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:21] <= End Request /job/get from 10.20.174.212:9005 - 706d4c0907494831b661d3ba159bd91d [421.808µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:22] => Request /job/get from 10.20.174.212:9005 - 6de6943b06f97d34795cf9a698eade1d  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:22] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:22] <= End Request /job/get from 10.20.174.212:9005 - 6de6943b06f97d34795cf9a698eade1d [414.775µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:23] => Request /job/get from 10.20.174.212:9005 - 89406d19a5d69d114b7454a0430b931d  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:23] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:23] <= End Request /job/get from 10.20.174.212:9005 - 89406d19a5d69d114b7454a0430b931d [402.144µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:24] => Request /job/get from 10.20.174.212:9005 - 0f446142dee0d833a591985c00e56e55  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:24] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:24] <= End Request /job/get from 10.20.174.212:9005 - 0f446142dee0d833a591985c00e56e55 [272.08µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:25] => Request /job/get from 10.20.174.212:9005 - ab8fe8ad399ec51eaf589efd54da6e39  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:25] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:25] <= End Request /job/get from 10.20.174.212:9005 - ab8fe8ad399ec51eaf589efd54da6e39 [871.49µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:26] => Request /job/get from 10.20.174.212:9005 - 694a2bc9084d940372068ddd92aade6a  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:26] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:26] <= End Request /job/get from 10.20.174.212:9005 - 694a2bc9084d940372068ddd92aade6a [440.283µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:27] => Request /job/get from 10.20.174.212:9005 - f8dc75d89c4b306568b1ae5ab47edb17  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:27] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:27] <= End Request /job/get from 10.20.174.212:9005 - f8dc75d89c4b306568b1ae5ab47edb17 [341.743µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:28] => Request /job/get from 10.20.174.212:9005 - 6fe1addad51cda30ad59470b1f343054  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:28] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:28] <= End Request /job/get from 10.20.174.212:9005 - 6fe1addad51cda30ad59470b1f343054 [314.274µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:29] => Request /job/get from 10.20.174.212:9005 - 066b68074d2d776d37f23b4c4ba43115  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:29] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:29] <= End Request /job/get from 10.20.174.212:9005 - 066b68074d2d776d37f23b4c4ba43115 [283.808µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:30] => Request /job/get from 10.20.174.212:9005 - 9d09f47f5bae384ba71d820e3c5c2b3e  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:30] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:30] <= End Request /job/get from 10.20.174.212:9005 - 9d09f47f5bae384ba71d820e3c5c2b3e [503.337µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:31] => Request /job/get from 10.20.174.212:9005 - 72e74ed996766f403fa26dd923e49662  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:31] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:31] <= End Request /job/get from 10.20.174.212:9005 - 72e74ed996766f403fa26dd923e49662 [634.802µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:32] => Request /job/get from 10.20.174.212:9005 - 45c3df535d0d6334f99cfef6d0cea91a  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:32] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:32] <= End Request /job/get from 10.20.174.212:9005 - 45c3df535d0d6334f99cfef6d0cea91a [508.117µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:33] => Request /job/get from 10.20.174.212:9005 - a373930a3ecead04e6795cf07d92301b  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:33] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:33] <= End Request /job/get from 10.20.174.212:9005 - a373930a3ecead04e6795cf07d92301b [387.302µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:34] => Request /job/get from 10.20.174.212:9005 - 058e2c4de33ce925e6691a7b3f3c3b60  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:34] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:34] <= End Request /job/get from 10.20.174.212:9005 - 058e2c4de33ce925e6691a7b3f3c3b60 [385.082µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:35] => Request /job/get from 10.20.174.212:9005 - 5fea5da9fcbbcc3082b3ef7bc4d71c3b  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:35] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:35] <= End Request /job/get from 10.20.174.212:9005 - 5fea5da9fcbbcc3082b3ef7bc4d71c3b [358.408µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:36] => Request /job/get from 10.20.174.212:9005 - 022791a00f55a3350a772d6ddf28647f  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:36] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:36] <= End Request /job/get from 10.20.174.212:9005 - 022791a00f55a3350a772d6ddf28647f [314.966µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:37] => Request /job/get from 10.20.174.212:9005 - 0f6de8548e0b1f787ece744777c03912  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:37] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:37] <= End Request /job/get from 10.20.174.212:9005 - 0f6de8548e0b1f787ece744777c03912 [307.201µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:38] => Request /job/get from 10.20.174.212:9005 - 0c860c0be4e43f7614056c4a852f8479  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:38] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:38] <= End Request /job/get from 10.20.174.212:9005 - 0c860c0be4e43f7614056c4a852f8479 [335.765µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:39] => Request /job/get from 10.20.174.212:9005 - faeec4736008657e13bea38c9af2675b  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:39] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:39] <= End Request /job/get from 10.20.174.212:9005 - faeec4736008657e13bea38c9af2675b [528.617µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:40] => Request /job/get from 10.20.174.212:9005 - 7a34affe594dca7a25746e79521fc94d  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:40] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:40] <= End Request /job/get from 10.20.174.212:9005 - 7a34affe594dca7a25746e79521fc94d [393.75µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:41] => Request /job/get from 10.20.174.212:9005 - df9e4aa33032c3485b3cb1d3b7f2e963  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:41] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:41] <= End Request /job/get from 10.20.174.212:9005 - df9e4aa33032c3485b3cb1d3b7f2e963 [311.386µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:42] => Request /job/get from 10.20.174.212:9005 - ff9da466d0605a579765c1a8a0e75620  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:42] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:42] <= End Request /job/get from 10.20.174.212:9005 - ff9da466d0605a579765c1a8a0e75620 [311.309µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:43] => Request /job/get from 10.20.174.212:9005 - 63c310a564d1012fccbbadae9731f64f  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:43] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:43] <= End Request /job/get from 10.20.174.212:9005 - 63c310a564d1012fccbbadae9731f64f [805.619µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:44] => Request /job/get from 10.20.174.212:9005 - 5cba92e7af676f382a191c778d856e22  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:44] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:44] <= End Request /job/get from 10.20.174.212:9005 - 5cba92e7af676f382a191c778d856e22 [352.28µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:45] => Request /job/get from 10.20.174.212:9005 - 22647dd31e69840172cc44306dc63258  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:45] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:45] <= End Request /job/get from 10.20.174.212:9005 - 22647dd31e69840172cc44306dc63258 [310.079µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:46] => Request /job/get from 10.20.174.212:9005 - 03b3eb6e9c08c8627f82593552ab7c43  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:46] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:46] <= End Request /job/get from 10.20.174.212:9005 - 03b3eb6e9c08c8627f82593552ab7c43 [429.305µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:47] => Request /job/get from 10.20.174.212:9005 - db55c26e0e9efe5826f26522872caa52  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:47] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:47] <= End Request /job/get from 10.20.174.212:9005 - db55c26e0e9efe5826f26522872caa52 [415.831µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:48] => Request /job/get from 10.20.174.212:9005 - dd70256e724bfe141dc02431de1be630  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:48] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:48] <= End Request /job/get from 10.20.174.212:9005 - dd70256e724bfe141dc02431de1be630 [286.013µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:49] => Request /job/get from 10.20.174.212:9005 - de58a05795b6e35a4dd5ea4db894410e  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:49] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:49] <= End Request /job/get from 10.20.174.212:9005 - de58a05795b6e35a4dd5ea4db894410e [339.021µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:50] => Request /job/get from 10.20.174.212:9005 - 6881f545a840e9462529cc2099b68679  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:50] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:50] <= End Request /job/get from 10.20.174.212:9005 - 6881f545a840e9462529cc2099b68679 [297.077µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:51] => Request /job/get from 10.20.174.212:9005 - fbe0315556588453d1b29ff6b9866610  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:51] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:51] <= End Request /job/get from 10.20.174.212:9005 - fbe0315556588453d1b29ff6b9866610 [295.028µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:52] => Request /job/get from 10.20.174.212:9005 - 8bedad0733114d60e72c8f88a0055f53  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:52] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:52] <= End Request /job/get from 10.20.174.212:9005 - 8bedad0733114d60e72c8f88a0055f53 [348.854µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:53] => Request /job/get from 10.20.174.212:9005 - 30508df7190d4e6f3ad63d75bb1b6941  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:53] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:53] <= End Request /job/get from 10.20.174.212:9005 - 30508df7190d4e6f3ad63d75bb1b6941 [499.567µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:54] => Request /job/get from 10.20.174.212:9005 - 3a05fa58a14de1442f7cfc102db94634  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:54] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:54] <= End Request /job/get from 10.20.174.212:9005 - 3a05fa58a14de1442f7cfc102db94634 [400.375µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:55] => Request /job/get from 10.20.174.212:9005 - a0b059f94d968b4f8102004db3012c2c  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:55] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:55] <= End Request /job/get from 10.20.174.212:9005 - a0b059f94d968b4f8102004db3012c2c [379.868µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:56] => Request /job/get from 10.20.174.212:9005 - 958baf7ed4914a5b09053353cf53f365  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:56] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:56] <= End Request /job/get from 10.20.174.212:9005 - 958baf7ed4914a5b09053353cf53f365 [322.567µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:57] => Request /job/get from 10.20.174.212:9005 - c130c292a6a4f52f7c9e4a6a7369b044  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:57] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:57] <= End Request /job/get from 10.20.174.212:9005 - c130c292a6a4f52f7c9e4a6a7369b044 [286.381µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:58] => Request /job/get from 10.20.174.212:9005 - 44f9d15eb1a6111286784a985296971b  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:58] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:58] <= End Request /job/get from 10.20.174.212:9005 - 44f9d15eb1a6111286784a985296971b [321.79µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:35:59] => Request /job/get from 10.20.174.212:9005 - b1486e95ef311a64d2905cfc1058d019  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:35:59] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:35:59] <= End Request /job/get from 10.20.174.212:9005 - b1486e95ef311a64d2905cfc1058d019 [290.736µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:00] => Request /job/get from 10.20.174.212:9005 - 41b6529b224e586121d9bf9b844e5529  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:00] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:00] <= End Request /job/get from 10.20.174.212:9005 - 41b6529b224e586121d9bf9b844e5529 [676.188µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:01] => Request /job/get from 10.20.174.212:9005 - 752f7087ed15fb1520be5b117530e120  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:01] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:01] <= End Request /job/get from 10.20.174.212:9005 - 752f7087ed15fb1520be5b117530e120 [384.766µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:02] => Request /job/get from 10.20.174.212:9005 - 6240e9649effa733392106c44f02400d  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:02] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:02] <= End Request /job/get from 10.20.174.212:9005 - 6240e9649effa733392106c44f02400d [307.187µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:03] => Request /job/get from 10.20.174.212:9005 - bc411458c06a6a4d3d2eaa332cc34c15  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:03] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:03] <= End Request /job/get from 10.20.174.212:9005 - bc411458c06a6a4d3d2eaa332cc34c15 [326.615µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:04] => Request /job/get from 10.20.174.212:9005 - 9fb8f91124526e2c1434aa5227a1ee3d  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:04] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:04] <= End Request /job/get from 10.20.174.212:9005 - 9fb8f91124526e2c1434aa5227a1ee3d [284.324µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:05] => Request /job/get from 10.20.174.212:9005 - b383f54430a3a847de7e7ec82426ab77  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:05] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:05] <= End Request /job/get from 10.20.174.212:9005 - b383f54430a3a847de7e7ec82426ab77 [288.33µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:06] => Request /job/get from 10.20.174.212:9005 - cdc15bc05506b135492f7b5dfba69832  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:06] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:06] <= End Request /job/get from 10.20.174.212:9005 - cdc15bc05506b135492f7b5dfba69832 [293.944µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:07] => Request /job/get from 10.20.174.212:9005 - d672566919d0655edda3ca464438b551  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:07] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:07] <= End Request /job/get from 10.20.174.212:9005 - d672566919d0655edda3ca464438b551 [3.059169ms]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:08] => Request /job/get from 10.20.174.212:9005 - e921768149363277abefdb9c169d047d  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:08] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:08] <= End Request /job/get from 10.20.174.212:9005 - e921768149363277abefdb9c169d047d [298.084µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:09] => Request /job/get from 10.20.174.212:9005 - ca8f7064008653091d1babccb6c4bb1b  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:09] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:09] <= End Request /job/get from 10.20.174.212:9005 - ca8f7064008653091d1babccb6c4bb1b [418.183µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:10] => Request /job/get from 10.20.174.212:9005 - dbf138be3f0ee94b86c425918171aa26  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:10] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:10] <= End Request /job/get from 10.20.174.212:9005 - dbf138be3f0ee94b86c425918171aa26 [279.803µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:11] => Request /job/get from 10.20.174.212:9005 - d09b4f8e49e87268e27fe9c0c165ae4f  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:11] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:11] <= End Request /job/get from 10.20.174.212:9005 - d09b4f8e49e87268e27fe9c0c165ae4f [288.986µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:12] => Request /job/get from 10.20.174.212:9005 - a8128b0189788e1de465555297f9813b  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:12] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:12] <= End Request /job/get from 10.20.174.212:9005 - a8128b0189788e1de465555297f9813b [305.284µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:13] => Request /job/get from 10.20.174.212:9005 - 8adc79ae1bc173322d6de90d7fc80a6e  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:13] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:13] <= End Request /job/get from 10.20.174.212:9005 - 8adc79ae1bc173322d6de90d7fc80a6e [449.528µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:14] => Request /job/get from 10.20.174.212:9005 - 72eb0b8c3074ab6670f7b98554bbd146  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:14] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:14] <= End Request /job/get from 10.20.174.212:9005 - 72eb0b8c3074ab6670f7b98554bbd146 [302.666µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:15] => Request /job/get from 10.20.174.212:9005 - 39b8e22e07a2823fae45e2a3d91db41c  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:15] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:15] <= End Request /job/get from 10.20.174.212:9005 - 39b8e22e07a2823fae45e2a3d91db41c [339.973µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:16] => Request /job/get from 10.20.174.212:9005 - bc1ddc083e47b053a4e2088be1bdb430  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:16] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:16] <= End Request /job/get from 10.20.174.212:9005 - bc1ddc083e47b053a4e2088be1bdb430 [370.225µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:17] => Request /job/get from 10.20.174.212:9005 - df25dc6d9fea7a488c7ae0af7c44c354  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:17] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:17] <= End Request /job/get from 10.20.174.212:9005 - df25dc6d9fea7a488c7ae0af7c44c354 [274.945µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:18] => Request /job/get from 10.20.174.212:9005 - 96df77822066533bae9572cd4ef5166d  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:18] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:18] <= End Request /job/get from 10.20.174.212:9005 - 96df77822066533bae9572cd4ef5166d [295.41µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:19] => Request /job/get from 10.20.174.212:9005 - 01fd44eaa89307191345d4e822a42778  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:19] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:19] <= End Request /job/get from 10.20.174.212:9005 - 01fd44eaa89307191345d4e822a42778 [782.235µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:20] => Request /job/get from 10.20.174.212:9005 - 44fd2e263a45506f1d9a1a2bed942d32  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:20] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:20] <= End Request /job/get from 10.20.174.212:9005 - 44fd2e263a45506f1d9a1a2bed942d32 [346.29µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:21] => Request /job/get from 10.20.174.212:9005 - c040bde4cf355b4750f5983a5dd62a53  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:21] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:21] <= End Request /job/get from 10.20.174.212:9005 - c040bde4cf355b4750f5983a5dd62a53 [384.019µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:22] => Request /job/get from 10.20.174.212:9005 - 31377aebbecba4062ba8ab127c919902  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:22] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:22] <= End Request /job/get from 10.20.174.212:9005 - 31377aebbecba4062ba8ab127c919902 [285.018µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:23] => Request /job/get from 10.20.174.212:9005 - 7ffcfbed2053bf43d5ccf8b5bf0a7927  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:23] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:23] <= End Request /job/get from 10.20.174.212:9005 - 7ffcfbed2053bf43d5ccf8b5bf0a7927 [345.757µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:24] => Request /job/get from 10.20.174.212:9005 - 681ee29693a93b3da6d76c85195eec27  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:24] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:24] <= End Request /job/get from 10.20.174.212:9005 - 681ee29693a93b3da6d76c85195eec27 [311.959µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:25] => Request /job/get from 10.20.174.212:9005 - 6754052d1b1ca464075566a86ef9e30f  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:25] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:25] <= End Request /job/get from 10.20.174.212:9005 - 6754052d1b1ca464075566a86ef9e30f [664.406µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:26] => Request /job/get from 10.20.174.212:9005 - 1d466cf5d715fa03b2fc625664bc5747  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:26] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:26] <= End Request /job/get from 10.20.174.212:9005 - 1d466cf5d715fa03b2fc625664bc5747 [476.944µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:27] => Request /job/get from 10.20.174.212:9005 - 7bcaa58cb47f5f5fcbeaf018a3d61e7c  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:27] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:27] <= End Request /job/get from 10.20.174.212:9005 - 7bcaa58cb47f5f5fcbeaf018a3d61e7c [302.792µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:28] => Request /job/get from 10.20.174.212:9005 - 9937435420d885041f7776a2fe5fb728  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:28] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:28] <= End Request /job/get from 10.20.174.212:9005 - 9937435420d885041f7776a2fe5fb728 [289.415µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:29] => Request /job/get from 10.20.174.212:9005 - 2e2f67c496296f3be25e2b0e2e44776f  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:29] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:29] <= End Request /job/get from 10.20.174.212:9005 - 2e2f67c496296f3be25e2b0e2e44776f [798.969µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:30] => Request /job/get from 10.20.174.212:9005 - 750a97077e85071747e1184b9e307807  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:30] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:30] <= End Request /job/get from 10.20.174.212:9005 - 750a97077e85071747e1184b9e307807 [293.612µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:31] => Request /job/get from 10.20.174.212:9005 - 2c23fb3075fcc7459b7eb1dd9ddf4058  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:31] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:31] <= End Request /job/get from 10.20.174.212:9005 - 2c23fb3075fcc7459b7eb1dd9ddf4058 [294.644µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:32] => Request /job/get from 10.20.174.212:9005 - ba56a71fa195516e09cc818da12f5455  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:32] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:32] <= End Request /job/get from 10.20.174.212:9005 - ba56a71fa195516e09cc818da12f5455 [313.446µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:33] => Request /job/get from 10.20.174.212:9005 - cdef5973595a8f30e4697c9590ff2142  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:33] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:33] <= End Request /job/get from 10.20.174.212:9005 - cdef5973595a8f30e4697c9590ff2142 [305.284µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:34] => Request /job/get from 10.20.174.212:9005 - e81aed16c2c07a03c1a6fa71debf2704  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:34] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:34] <= End Request /job/get from 10.20.174.212:9005 - e81aed16c2c07a03c1a6fa71debf2704 [376.447µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:35] => Request /job/get from 10.20.174.212:9005 - baf314cb67825765557065e916326e7b  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:35] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:35] <= End Request /job/get from 10.20.174.212:9005 - baf314cb67825765557065e916326e7b [666.74µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:36] => Request /job/get from 10.20.174.212:9005 - 43c4ecdce83fa907eecee2ef481c191c  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:36] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:36] <= End Request /job/get from 10.20.174.212:9005 - 43c4ecdce83fa907eecee2ef481c191c [323.693µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:37] => Request /job/get from 10.20.174.212:9005 - b8cca5ae18ce0b5940d0054203938550  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:37] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:37] <= End Request /job/get from 10.20.174.212:9005 - b8cca5ae18ce0b5940d0054203938550 [363.98µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:38] => Request /job/get from 10.20.174.212:9005 - 63f56d4452a032120053d98ca829b601  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:38] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:38] <= End Request /job/get from 10.20.174.212:9005 - 63f56d4452a032120053d98ca829b601 [291.976µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:39] => Request /job/get from 10.20.174.212:9005 - 5d651214528f9e5a24b6d8db489d0d49  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:39] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:39] <= End Request /job/get from 10.20.174.212:9005 - 5d651214528f9e5a24b6d8db489d0d49 [307.683µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:40] => Request /job/get from 10.20.174.212:9005 - 100496afc05cb37f18d56628c197fa12  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:40] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:40] <= End Request /job/get from 10.20.174.212:9005 - 100496afc05cb37f18d56628c197fa12 [359.333µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:41] => Request /job/get from 10.20.174.212:9005 - b41900fdf0532074bd3de1f22cac3837  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:41] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:41] <= End Request /job/get from 10.20.174.212:9005 - b41900fdf0532074bd3de1f22cac3837 [993.271µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:42] => Request /job/get from 10.20.174.212:9005 - 9bcd742df3c8de560e374f91a40cfd78  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:42] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:42] <= End Request /job/get from 10.20.174.212:9005 - 9bcd742df3c8de560e374f91a40cfd78 [302.932µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:43] => Request /job/get from 10.20.174.212:9005 - 1353aa6b054c09160cba73a27efd2e0b  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:43] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:43] <= End Request /job/get from 10.20.174.212:9005 - 1353aa6b054c09160cba73a27efd2e0b [330.968µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:44] => Request /job/get from 10.20.174.212:9005 - b1819b273ca09213abaff775f4853578  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:44] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:44] <= End Request /job/get from 10.20.174.212:9005 - b1819b273ca09213abaff775f4853578 [832.776µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:45] => Request /job/get from 10.20.174.212:9005 - 028c6c7f8f23ed18ac7b56cbcd905d6c  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:45] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:45] <= End Request /job/get from 10.20.174.212:9005 - 028c6c7f8f23ed18ac7b56cbcd905d6c [397.153µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:46] => Request /job/get from 10.20.174.212:9005 - a49d877efed0f4371f9ab8b27fb4e123  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:46] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:46] <= End Request /job/get from 10.20.174.212:9005 - a49d877efed0f4371f9ab8b27fb4e123 [423.611µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:47] => Request /job/get from 10.20.174.212:9005 - 3807b327902490621c7116d09f5a7247  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:47] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:47] <= End Request /job/get from 10.20.174.212:9005 - 3807b327902490621c7116d09f5a7247 [394.591µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:48] => Request /job/get from 10.20.174.212:9005 - 2bd61df78f553a21935ae32505ebb536  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:48] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:48] <= End Request /job/get from 10.20.174.212:9005 - 2bd61df78f553a21935ae32505ebb536 [287.534µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:49] => Request /job/get from 10.20.174.212:9005 - 1923bcb92ba14e545c7f0f946e3d5a03  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:49] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:49] <= End Request /job/get from 10.20.174.212:9005 - 1923bcb92ba14e545c7f0f946e3d5a03 [286.918µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:50] => Request /job/get from 10.20.174.212:9005 - 5bf41ba17c70ca7bc95a3c26e95cc27c  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:50] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:50] <= End Request /job/get from 10.20.174.212:9005 - 5bf41ba17c70ca7bc95a3c26e95cc27c [288.496µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:51] => Request /job/get from 10.20.174.212:9005 - 374150d510bc4d4c1490f14a19c90d2b  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:51] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:51] <= End Request /job/get from 10.20.174.212:9005 - 374150d510bc4d4c1490f14a19c90d2b [460.981µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:52] => Request /job/get from 10.20.174.212:9005 - 8625a7275ebca96a2af9fa9786eaeb0c  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:52] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:52] <= End Request /job/get from 10.20.174.212:9005 - 8625a7275ebca96a2af9fa9786eaeb0c [321.48µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:53] => Request /job/get from 10.20.174.212:9005 - 82dc4dd2c30dbd06b29c9d29463e337e  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:53] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:53] <= End Request /job/get from 10.20.174.212:9005 - 82dc4dd2c30dbd06b29c9d29463e337e [757.19µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:54] => Request /job/get from 10.20.174.212:9005 - b551df74e208096deb3095587dbdab04  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:54] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:54] <= End Request /job/get from 10.20.174.212:9005 - b551df74e208096deb3095587dbdab04 [330.171µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:55] => Request /job/get from 10.20.174.212:9005 - e85ef96272c74514e2603f814d7acd08  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:55] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:55] <= End Request /job/get from 10.20.174.212:9005 - e85ef96272c74514e2603f814d7acd08 [316.034µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:56] => Request /job/get from 10.20.174.212:9005 - a7061a7a4a44090fe0553e531a1b3569  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:56] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:56] <= End Request /job/get from 10.20.174.212:9005 - a7061a7a4a44090fe0553e531a1b3569 [288.555µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:57] => Request /job/get from 10.20.174.212:9005 - 158fa99a945dec31b03259c4e5db5330  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:57] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:57] <= End Request /job/get from 10.20.174.212:9005 - 158fa99a945dec31b03259c4e5db5330 [292.758µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:58] => Request /job/get from 10.20.174.212:9005 - adc23590a2d6f2397c3c7dde29d78a7d  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:58] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:58] <= End Request /job/get from 10.20.174.212:9005 - adc23590a2d6f2397c3c7dde29d78a7d [739.714µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:36:59] => Request /job/get from 10.20.174.212:9005 - b440fa51c8cf67126fa29a566d338206  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:36:59] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:36:59] <= End Request /job/get from 10.20.174.212:9005 - b440fa51c8cf67126fa29a566d338206 [284.527µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:00] => Request /job/get from 10.20.174.212:9005 - dfa071dc30f5e11e8eb1323350e78001  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:00] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:00] <= End Request /job/get from 10.20.174.212:9005 - dfa071dc30f5e11e8eb1323350e78001 [292.342µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:01] => Request /job/get from 10.20.174.212:9005 - c3a17b202b4985681742c42f4deaf22b  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:01] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:01] <= End Request /job/get from 10.20.174.212:9005 - c3a17b202b4985681742c42f4deaf22b [641.825µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:02] => Request /job/get from 10.20.174.212:9005 - cdd91f75186d2d0d8fdcf7f1065e5001  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:02] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:02] <= End Request /job/get from 10.20.174.212:9005 - cdd91f75186d2d0d8fdcf7f1065e5001 [371.166µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:03] => Request /job/get from 10.20.174.212:9005 - 3078847f412ca376ad03bc93cd864477  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:03] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:03] <= End Request /job/get from 10.20.174.212:9005 - 3078847f412ca376ad03bc93cd864477 [308.852µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:04] => Request /job/get from 10.20.174.212:9005 - 77d4a5daf6037854914147a530c46e75  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:04] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:04] <= End Request /job/get from 10.20.174.212:9005 - 77d4a5daf6037854914147a530c46e75 [321.784µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:05] => Request /job/get from 10.20.174.212:9005 - 4246aef7b3a3f50426bffdb9bee4ef5f  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:05] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:05] <= End Request /job/get from 10.20.174.212:9005 - 4246aef7b3a3f50426bffdb9bee4ef5f [377.481µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:06] => Request /job/get from 10.20.174.212:9005 - 6e2a336c209d42613c172e29929af431  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:06] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:06] <= End Request /job/get from 10.20.174.212:9005 - 6e2a336c209d42613c172e29929af431 [328.177µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:07] => Request /job/get from 10.20.174.212:9005 - 45693a83a45fde7c81d8b3cad537bb1d  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:07] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:07] <= End Request /job/get from 10.20.174.212:9005 - 45693a83a45fde7c81d8b3cad537bb1d [570.508µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:08] => Request /job/get from 10.20.174.212:9005 - e7769602f6c5507c1c5fed048286715c  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:08] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:08] <= End Request /job/get from 10.20.174.212:9005 - e7769602f6c5507c1c5fed048286715c [469.909µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:09] => Request /job/get from 10.20.174.212:9005 - 1c490acf3cdf201fd2696aeb38b8814a  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:09] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:09] <= End Request /job/get from 10.20.174.212:9005 - 1c490acf3cdf201fd2696aeb38b8814a [358.219µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:10] => Request /job/get from 10.20.174.212:9005 - cf1a07c5b1e4363cf43ce805f8ad3b7d  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:10] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:10] <= End Request /job/get from 10.20.174.212:9005 - cf1a07c5b1e4363cf43ce805f8ad3b7d [715.152µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:11] => Request /job/get from 10.20.174.212:9005 - dbfe09bd312903094e0e97d6a2ea022d  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:11] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:11] <= End Request /job/get from 10.20.174.212:9005 - dbfe09bd312903094e0e97d6a2ea022d [372.806µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:12] => Request /job/get from 10.20.174.212:9005 - d1c7e2cd6ce98c71bc6f85b7725f892a  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:12] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:12] <= End Request /job/get from 10.20.174.212:9005 - d1c7e2cd6ce98c71bc6f85b7725f892a [307.711µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:13] => Request /job/get from 10.20.174.212:9005 - 4df085dd1b002b0d66620c5656d54a42  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:13] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:13] <= End Request /job/get from 10.20.174.212:9005 - 4df085dd1b002b0d66620c5656d54a42 [432.609µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:14] => Request /job/get from 10.20.174.212:9005 - eecb837de845c13b9d0be923cd9c0a1f  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:14] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:14] <= End Request /job/get from 10.20.174.212:9005 - eecb837de845c13b9d0be923cd9c0a1f [317.422µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:15] => Request /job/get from 10.20.174.212:9005 - 44db83078cfcfd671e822b968c0a4e2f  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:15] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:15] <= End Request /job/get from 10.20.174.212:9005 - 44db83078cfcfd671e822b968c0a4e2f [326.258µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:16] => Request /job/get from 10.20.174.212:9005 - 5b8be2234942eb0abc6b287c400a192b  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:16] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:16] <= End Request /job/get from 10.20.174.212:9005 - 5b8be2234942eb0abc6b287c400a192b [894.867µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:17] => Request /job/get from 10.20.174.212:9005 - b1a142b1d1995b7f6c96417103222e03  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:17] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:17] <= End Request /job/get from 10.20.174.212:9005 - b1a142b1d1995b7f6c96417103222e03 [362.461µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:18] => Request /job/get from 10.20.174.212:9005 - 39d9b62ee2baf121f0115124d3779572  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:18] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:18] <= End Request /job/get from 10.20.174.212:9005 - 39d9b62ee2baf121f0115124d3779572 [313.652µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:19] => Request /job/get from 10.20.174.212:9005 - 852b0be2d7c912174119e9ed6e88881d  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:19] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:19] <= End Request /job/get from 10.20.174.212:9005 - 852b0be2d7c912174119e9ed6e88881d [330.01µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:20] => Request /job/get from 10.20.174.212:9005 - aa770d8df00ddb3aa0830df45f9ab75f  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:20] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:20] <= End Request /job/get from 10.20.174.212:9005 - aa770d8df00ddb3aa0830df45f9ab75f [391.959µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:21] => Request /job/get from 10.20.174.212:9005 - 57d749f27df0bc684ed752a90b1d4f53  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:21] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:21] <= End Request /job/get from 10.20.174.212:9005 - 57d749f27df0bc684ed752a90b1d4f53 [295.143µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:22] => Request /job/get from 10.20.174.212:9005 - 9c140de93d8af34a769a00de4ba14518  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:22] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:22] <= End Request /job/get from 10.20.174.212:9005 - 9c140de93d8af34a769a00de4ba14518 [289.006µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:23] => Request /job/get from 10.20.174.212:9005 - c75be8084e92427c4afc599ad0cd5133  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:23] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:23] <= End Request /job/get from 10.20.174.212:9005 - c75be8084e92427c4afc599ad0cd5133 [304.588µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:24] => Request /job/get from 10.20.174.212:9005 - ecbc3d78f663f370e0b8166ac4c3170b  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:24] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:24] <= End Request /job/get from 10.20.174.212:9005 - ecbc3d78f663f370e0b8166ac4c3170b [307.88µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:25] => Request /job/get from 10.20.174.212:9005 - 1ac35fc232197d486ca3bb09df076f55  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:25] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:25] <= End Request /job/get from 10.20.174.212:9005 - 1ac35fc232197d486ca3bb09df076f55 [309.052µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:26] => Request /job/get from 10.20.174.212:9005 - a48a72ce70d030347685d6c44bed735c  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:26] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:26] <= End Request /job/get from 10.20.174.212:9005 - a48a72ce70d030347685d6c44bed735c [526.814µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:27] => Request /job/get from 10.20.174.212:9005 - 02b0b8bea46c9a486c3a0d474350d94e  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:27] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:27] <= End Request /job/get from 10.20.174.212:9005 - 02b0b8bea46c9a486c3a0d474350d94e [323.823µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:28] => Request /job/get from 10.20.174.212:9005 - 7c204c4152f7aa353b312b4301107230  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:28] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:28] <= End Request /job/get from 10.20.174.212:9005 - 7c204c4152f7aa353b312b4301107230 [376.082µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:29] => Request /job/get from 10.20.174.212:9005 - 41e6d52f401c5d7eca77ba04586ff910  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:29] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:29] <= End Request /job/get from 10.20.174.212:9005 - 41e6d52f401c5d7eca77ba04586ff910 [688.574µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:30] => Request /job/get from 10.20.174.212:9005 - dc441c19311dbe786a24e1ae6c2d840c  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:30] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:30] <= End Request /job/get from 10.20.174.212:9005 - dc441c19311dbe786a24e1ae6c2d840c [330.761µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:31] => Request /job/get from 10.20.174.212:9005 - ad40961763cbf911477d8e89918cf145  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:31] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:31] <= End Request /job/get from 10.20.174.212:9005 - ad40961763cbf911477d8e89918cf145 [283.194µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:32] => Request /job/get from 10.20.174.212:9005 - dec56678f081195d85553c35b700383b  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:32] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:32] <= End Request /job/get from 10.20.174.212:9005 - dec56678f081195d85553c35b700383b [346.274µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:33] => Request /job/get from 10.20.174.212:9005 - dff1e1a39378a229ac908b44e2efc84d  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:33] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:33] <= End Request /job/get from 10.20.174.212:9005 - dff1e1a39378a229ac908b44e2efc84d [303.572µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:34] => Request /job/get from 10.20.174.212:9005 - 94bed311e5af6f4396a0a903ecd42f3e  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:34] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:34] <= End Request /job/get from 10.20.174.212:9005 - 94bed311e5af6f4396a0a903ecd42f3e [323.636µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:35] => Request /job/get from 10.20.174.212:9005 - 3b0851ebb0c1b125b1088cdc1dd0a75a  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:35] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:35] <= End Request /job/get from 10.20.174.212:9005 - 3b0851ebb0c1b125b1088cdc1dd0a75a [298.082µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:36] => Request /job/get from 10.20.174.212:9005 - 16da3cd0f9f7450f184f95545cec083a  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:36] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:36] <= End Request /job/get from 10.20.174.212:9005 - 16da3cd0f9f7450f184f95545cec083a [768.763µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:37] => Request /job/get from 10.20.174.212:9005 - de5f3a001b056d62785e7dd61c3ed943  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:37] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:37] <= End Request /job/get from 10.20.174.212:9005 - de5f3a001b056d62785e7dd61c3ed943 [364.087µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:38] => Request /job/get from 10.20.174.212:9005 - b6631ef47438cb0dddcbf38103e6224d  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:38] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:38] <= End Request /job/get from 10.20.174.212:9005 - b6631ef47438cb0dddcbf38103e6224d [338.482µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:39] => Request /job/get from 10.20.174.212:9005 - 9194d779d902b9143132f93a137bf863  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:39] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:39] <= End Request /job/get from 10.20.174.212:9005 - 9194d779d902b9143132f93a137bf863 [292.747µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:40] => Request /job/get from 10.20.174.212:9005 - 8ccfe8e8296fd65f3c7e9886fb94de7a  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:40] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:40] <= End Request /job/get from 10.20.174.212:9005 - 8ccfe8e8296fd65f3c7e9886fb94de7a [365.807µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:41] => Request /job/get from 10.20.174.212:9005 - 645d67422f29674f2c145969836aa94d  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:41] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:41] <= End Request /job/get from 10.20.174.212:9005 - 645d67422f29674f2c145969836aa94d [734.897µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:42] => Request /job/get from 10.20.174.212:9005 - fcfaed61ae0e4d5d3abf4e5ea72cca76  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:42] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:42] <= End Request /job/get from 10.20.174.212:9005 - fcfaed61ae0e4d5d3abf4e5ea72cca76 [286.477µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:43] => Request /job/get from 10.20.174.212:9005 - 37328b64ded927193e5508ace6a30745  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:43] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:43] <= End Request /job/get from 10.20.174.212:9005 - 37328b64ded927193e5508ace6a30745 [334.689µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:44] => Request /job/get from 10.20.174.212:9005 - d437fcaced1aa45dc9f9633b0d67433c  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:44] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:44] <= End Request /job/get from 10.20.174.212:9005 - d437fcaced1aa45dc9f9633b0d67433c [304.557µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:45] => Request /job/get from 10.20.174.212:9005 - a16a3e9f08d7c72900fc2e61a5b7831f  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:45] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:45] <= End Request /job/get from 10.20.174.212:9005 - a16a3e9f08d7c72900fc2e61a5b7831f [1.713556ms]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:46] => Request /job/get from 10.20.174.212:9005 - 2681256b4c40a47d334450fb9ccaeb6b  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:46] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:46] <= End Request /job/get from 10.20.174.212:9005 - 2681256b4c40a47d334450fb9ccaeb6b [403.459µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:47] => Request /job/get from 10.20.174.212:9005 - d1893158d6c44248d784132634269a4d  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:47] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:47] <= End Request /job/get from 10.20.174.212:9005 - d1893158d6c44248d784132634269a4d [293.066µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:48] => Request /job/get from 10.20.174.212:9005 - 94b5bbd64af02a23a4a1d783f0913241  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:48] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:48] <= End Request /job/get from 10.20.174.212:9005 - 94b5bbd64af02a23a4a1d783f0913241 [332.764µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:49] => Request /job/get from 10.20.174.212:9005 - 29080c41985639069a2b7f453f7eed4a  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:49] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:49] <= End Request /job/get from 10.20.174.212:9005 - 29080c41985639069a2b7f453f7eed4a [330.789µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:50] => Request /job/get from 10.20.174.212:9005 - 2c0747f8b10fed3e9c41213e6ac2575f  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:50] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:50] <= End Request /job/get from 10.20.174.212:9005 - 2c0747f8b10fed3e9c41213e6ac2575f [439.963µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:51] => Request /job/get from 10.20.174.212:9005 - ae1e0f2ddd5b4406f2e4b15151f4b90e  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:51] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:51] <= End Request /job/get from 10.20.174.212:9005 - ae1e0f2ddd5b4406f2e4b15151f4b90e [1.324313ms]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:52] => Request /job/get from 10.20.174.212:9005 - bd48781cad26e477e5082a3162d4641c  [37msource[0m="webapp/main.go:191"
+[37mDEBU[0m[2019/11/20 12:37:52] Permission Denied                             [37msource[0m="controllers/base.go:1116"
+[37mDEBU[0m[2019/11/20 12:37:52] <= End Request /job/get from 10.20.174.212:9005 - bd48781cad26e477e5082a3162d4641c [515.25µs]  [37msource[0m="webapp/main.go:199"
+[37mDEBU[0m[2019/11/20 12:37:53] => Request /job/get from 10.20.174.212:9005 - e9cb676b0d41ed5d6de97610e74ce556  [37msource[0m="webapp/main.go:191"
